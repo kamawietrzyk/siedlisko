@@ -8,11 +8,11 @@ import Header from './components/Header'
 function App() {
   return (
     <div className="container">
-    <Header />
-    <Switch>
-      <Route exact path={URLS.HOME} component={HomeView} />
-      <Route exact path={URLS.ABOUT_US} component={AboutUsView} />
-    </Switch>
+      <Header />
+      <Switch>
+        <Route exact path={URLS.HOME} component={HomeView} />
+        <Route exact path={URLS.ABOUT_US} component={AboutUsView} />
+      </Switch>
     </div>
   );
 }
