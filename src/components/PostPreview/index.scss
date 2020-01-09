@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Hepta+Slab|PT+Mono&display=swap');
+
+.post-preview {
+  font-family: 'PT Mono', monospace;
+  font-size: 14px;
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr;
+  grid-gap: 2em;
+  box-shadow: 3px 10px 25px -27px;
+
+  img {
+    max-width: 100%;
+  }
+
+  div {
+    margin: auto auto;
+
+    h2 {
+      font-family: "Amatic SC", cursive;
+    }
+  }
+
+  .read-more:hover, .tags {
+    color: #FF7C26;
+  }
+
+  &.flipped {
+    
+  }
+}

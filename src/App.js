@@ -5,16 +5,18 @@ import HomeView from './views/Home'
 import AboutUsView from './views/AboutUs'
 import Header from './components/Header'
 
-function App() {
+const App = () => {
   return (
-    <div className="container">
+    <div>
       <Header />
-      <Switch>
-        <Route exact path={URLS.HOME} component={HomeView} />
-        <Route exact path={URLS.ABOUT_US} component={AboutUsView} />
-      </Switch>
+      <div className="jumbotron bg-light">
+        <Switch>
+          <Route exact path={URLS.HOME} component={HomeView} />
+          <Route exact path={URLS.ABOUT_US} component={AboutUsView} />
+        </Switch>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
