@@ -1,32 +1,37 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Hepta+Slab|PT+Mono&display=swap');
-
-.post-preview {
-  font-family: 'PT Mono', monospace;
-  font-size: 14px;
-  margin-bottom: 40px;
+.PostPreview {
+  margin-bottom: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 2fr;
-  grid-gap: 2em;
-  box-shadow: 3px 10px 25px -27px;
+  grid-template-areas: 
+  "img div";
 
   img {
+    grid-area: img;
     max-width: 100%;
-  }
-
-  div {
-    margin: auto auto;
-
-    h2 {
-      font-family: "Amatic SC", cursive;
+    &:hover {
+      cursor: pointer;
     }
   }
 
-  .read-more:hover, .tags {
+  .PostPreview__text {
+    padding: 3rem 2rem;
+    grid-area: div;
+    box-shadow: 1px 20px 40px 1px rgba(204,204,204,1);
+  }
+
+  .read-more:hover, 
+  h2:hover {
+    color: #FF7C26;
+    cursor: pointer;
+  }
+
+  .tag {
     color: #FF7C26;
   }
 
   &.flipped {
-    
+    grid-template-areas: 
+    "div img";
   }
 }

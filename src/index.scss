@@ -1,9 +1,25 @@
-a,a:hover,a:active { 
-  font-weight: 700;
-  color: orange;
-}
+@import url('https://fonts.googleapis.com/css?family=Raleway|Courier+Prime|Lato&display=swap');
 
-a:hover {
-  color: white;
-}
+body {
+  h2, h3, a, p {
+    font-family: 'Raleway', sans-serif;
+  }
 
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 1rem;
+    margin: 0;
+    padding-top: 1rem;
+  }
+
+  .jumbotron {
+    background-color: #f7f7f7;
+  }
+}
