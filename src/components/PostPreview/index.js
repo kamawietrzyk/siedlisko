@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import URLS from '../../config/urls'
 import './index.scss'
 
 const PostPreview = ({ flip = false, title, pic, text, date, tag }) => (
@@ -8,7 +10,7 @@ const PostPreview = ({ flip = false, title, pic, text, date, tag }) => (
       <p className="tag">{tag}</p>
       <h2 className="pt-3">{title}</h2>
       <h3 className="text-muted">{date}</h3>
-      <p>{text}<span className="read-more">&raquo;</span>
+      <p>{text}<Link to={URLS.HOME} className="read-more">&raquo;</Link>
       </p>
     </div>
   </div>

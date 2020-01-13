@@ -4,9 +4,9 @@ import './index.scss'
 import Navbar from '../Navbar'
 
 const Header = () => (
-  <div className="header">
-    <img src={logo} className="logo" alt="logo" height="180" />
-    <hr className="line-center"/>
+  <div className="Header">
+    <img src={logo} alt="logo" height="180" />
+    <hr />
     <Navbar />
   </div>
 )
