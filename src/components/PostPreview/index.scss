@@ -1,0 +1,42 @@
+.PostPreview {
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr;
+  grid-template-areas: 
+  "img div";
+
+  img {
+    grid-area: img;
+    max-width: 100%;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .PostPreview__text {
+    padding: 3rem 2rem;
+    grid-area: div;
+    box-shadow: 0px 1px 10px 0px rgba(227,227,227,1);
+  }
+
+  .read-more {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .read-more:hover, 
+  h2:hover {
+    color: #FF7C26;
+    cursor: pointer;
+  }
+
+  .tag {
+    color: #FF7C26;
+  }
+
+  &.flipped {
+    grid-template-areas: 
+    "div img";
+  }
+}

@@ -4,17 +4,20 @@ import URLS from './config/urls'
 import HomeView from './views/Home'
 import AboutUsView from './views/AboutUs'
 import Header from './components/Header'
+import './index.scss'
 
-function App() {
+const App = () => {
   return (
-    <div className="container">
+    <div>
       <Header />
-      <Switch>
-        <Route exact path={URLS.HOME} component={HomeView} />
-        <Route exact path={URLS.ABOUT_US} component={AboutUsView} />
-      </Switch>
+      <div className="jumbotron">
+        <Switch>
+          <Route exact path={URLS.HOME} component={HomeView} />
+          <Route exact path={URLS.ABOUT_US} component={AboutUsView} />
+        </Switch>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
