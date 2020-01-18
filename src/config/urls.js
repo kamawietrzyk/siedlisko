@@ -1,7 +1,7 @@
 const URLS = {
   HOME: '/',
   POSTS: '/wszystkie-wpisy',
-  POST_ONE: '/pierwszy-wpis',
+  POST: '/wpis/:url',
   ABOUT_US: '/o-nas',
   PERMACULTURE: '/dlaczego-permakultura',
   CONTACT: '/kontakt'

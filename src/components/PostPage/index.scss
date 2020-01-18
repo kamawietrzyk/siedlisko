@@ -13,6 +13,9 @@
     
     h1 {
       margin-top: 1rem;
+    }
+
+    h3 {
       margin-bottom: 2rem;
     }
 
@@ -21,7 +24,6 @@
     }
 
     .tag {
-      color: #FF7C26;
       text-align: center;
     }
   }
@@ -37,25 +39,6 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     grid-gap: 2rem;
-    grid-template-areas: 
-    "post-one post-two post-three";
-    }
-
-    .post-one {
-      grid-area: post-one;
-    }
-
-    .post-two {
-      grid-area: post-two;
-    }
-
-    .post-three {
-      grid-area: post-three;
-    }
-
-    .post-one, .post-two, .post-three {
-      height: 250px;
-      background-color: grey;
     }
   }
 }
