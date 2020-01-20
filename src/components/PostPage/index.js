@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import URLS from '../../config/urls'
 import './index.scss'
 import PostPreviewSmall from '../PostPreviewSmall'
 
@@ -12,6 +14,9 @@ const PostPage = ({ post, related }) => {
         <h1>{title}</h1>
         <h3 className="text-muted">{date}</h3>
         <div>{textLong}</div>
+        <div className="PostPage__button">
+          <Link to={URLS.POSTS} className="btn btn-outline-dark">&laquo; Wróć do postów</Link>
+        </div>
       </div>
       <div className="PostPage__suggestion">
         <h2>Może Cię zainteresować</h2>
