@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import React from 'react'
 import { withRouter, useParams } from 'react-router-dom'
 import ScrollToTop from '../components/ScrollToTop'
