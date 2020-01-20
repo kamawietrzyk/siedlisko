@@ -8,12 +8,13 @@ import posts from '../config/posts'
 const PostPageView = () => {
   const { url } = useParams()
   const selectedPost = posts.find(post => post.path === url)
+  const relatedPost = posts.slice(0, 3)
 
   return (
     <>
       <div className="container p-0">
         <ScrollToTop />
-        <PostPage selectedPost={selectedPost} />
+        <PostPage post={selectedPost} related={relatedPost}/>
       </div>
     </>
   )
