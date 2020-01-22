@@ -1,9 +1,9 @@
 import React from 'react'
+import AboutUs from '../components/AboutUs'
 
 const AboutUsView = () => (
-  <div className="container p-0">
-    <h1 className="text-center">O nas</h1>
-    <p></p>
+  <div className="container">
+    <AboutUs />
   </div>
 )
 
