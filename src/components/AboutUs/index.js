@@ -4,7 +4,7 @@ import './index.scss'
 
 const AboutUs = () => (
   <div className="AboutUs">
-    <img src={ryjki} alt="about-us-pic" width="25%" />
+    <img src={ryjki} alt="about-us-pic" width="20%" />
     <div className="AboutUs__text">
       <h1>Kilka słów o nas</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis risus et nunc consectetur tempus. Aliquam nec aliquam metus. Morbi in placerat nisl. Nam sagittis posuere tristique. Quisque ut est tincidunt, dictum purus nec, elementum ex. Integer sed lacinia erat. Etiam eget maximus elit. Nam massa metus, mollis quis erat quis, finibus condimentum purus. Sed mattis ligula tellus, ut sodales nisl tempor id. Cras finibus dolor vehicula diam aliquet feugiat. Vestibulum sit amet purus cursus nisi mollis congue vel quis ipsum.</p>
