@@ -6,7 +6,7 @@ import AboutUsView from './views/AboutUsView'
 import Header from './components/Header'
 import './index.scss'
 import PostPageView from './views/PostPageView'
-import PostsView from './views/Posts'
+import PostsView from './views/PostsView'
 
 const App = () => {
   return (
