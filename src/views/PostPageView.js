@@ -1,8 +1,8 @@
 import React from 'react'
 import { withRouter, useParams } from 'react-router-dom'
-import ScrollToTop from '../components/ScrollToTop'
 import PostPage from '../components/PostPage'
 import posts from '../config/posts'
+import ScrollToTopOnMount from '../components/ScrollToTop'
 
 const PostPageView = () => {
   const { url } = useParams()
@@ -12,7 +12,7 @@ const PostPageView = () => {
   return (
     <>
       <div className="container p-0">
-        <ScrollToTop />
+        <ScrollToTopOnMount />
         <PostPage post={selectedPost} related={relatedPost}/>
       </div>
     </>
