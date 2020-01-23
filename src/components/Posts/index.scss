@@ -1,0 +1,15 @@
+.Posts {
+  background-color: white;
+  padding: 3rem 2rem 0 2rem;
+  box-shadow: 0px 1px 10px 0px rgba(227,227,227,0.5);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 3rem;
+
+  &__pagination {
+    background-color: white;
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+  }
+}
