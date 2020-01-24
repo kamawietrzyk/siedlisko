@@ -7,6 +7,7 @@ import Header from './components/Header'
 import './index.scss'
 import PostPageView from './views/PostPageView'
 import PostsView from './views/PostsView'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route exact path={URLS.POSTS} component={PostsView} />
         </Switch>
       </div>
+      <Footer />
     </div>
   )
 }
