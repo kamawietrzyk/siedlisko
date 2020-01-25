@@ -1,14 +1,14 @@
 .Footer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  padding: 2rem;
+  padding: 2rem 3rem;
   border-top: 1px solid #e7e7e7;
 
   &__link {
     display: inline-flex;
-    color: #525252;
-    padding: 0 1rem;
+    color: #6c757d;
+    padding: 0 .5rem;
   
     &:hover {
       color: black;
