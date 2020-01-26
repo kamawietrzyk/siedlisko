@@ -1,0 +1,27 @@
+.Footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 3rem;
+  border-top: 1px solid #e7e7e7;
+
+  &__link {
+    display: inline-flex;
+    color: #6c757d;
+    padding: 0 .5rem;
+  
+    &:hover {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+  &__icon {
+    display: inline-block;
+    margin-right: 1rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}    
