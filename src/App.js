@@ -7,6 +7,7 @@ import Header from './components/Header'
 import './index.scss'
 import PostPageView from './views/PostPageView'
 import PostsView from './views/PostsView'
+import ContactView from './views/ContactView'
 import Footer from './components/Footer'
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
           <Route exact path={URLS.ABOUT_US} component={AboutUsView} />
           <Route exact path={URLS.POST} component={PostPageView} />
           <Route exact path={URLS.POSTS} component={PostsView} />
+          <Route exact path={URLS.CONTACT} component={ContactView} />
         </Switch>
       </div>
       <Footer />
