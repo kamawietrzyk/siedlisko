@@ -2,7 +2,7 @@ import React from 'react'
 import kontakt from './kontakt.jpg'
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faPhoneSquareAlt } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faPhoneSquareAlt, faAt } from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => (
   <>
@@ -18,6 +18,10 @@ const Contact = () => (
         <div>
           <h2><FontAwesomeIcon icon={faPhoneSquareAlt} /> Telefon</h2>
           <p>Tomek Wietrzyk <br/> (+48) 690-005-927</p>
+        </div>
+        <div>
+          <h2><FontAwesomeIcon icon={faAt} /> Email</h2>
+          <p>Kama Swoboda-Wietrzyk <br/> kama@wietrzyk.com</p>
         </div>
       </div>
 
