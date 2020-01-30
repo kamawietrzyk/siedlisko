@@ -9,6 +9,7 @@ import PostPageView from './views/PostPageView'
 import PostsView from './views/PostsView'
 import ContactView from './views/ContactView'
 import Footer from './components/Footer'
+import PermacultureView from './views/PermacultureView'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route exact path={URLS.ABOUT_US} component={AboutUsView} />
           <Route exact path={URLS.POST} component={PostPageView} />
           <Route exact path={URLS.POSTS} component={PostsView} />
+          <Route exact path={URLS.PERMACULTURE} component={PermacultureView} />
           <Route exact path={URLS.CONTACT} component={ContactView} />
         </Switch>
       </div>
