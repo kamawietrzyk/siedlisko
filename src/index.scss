@@ -19,6 +19,11 @@ html * {
     font-size: 1rem;
     margin: 0;
     padding-top: 1rem;
+    text-indent: 2rem;
+  }
+
+  li {
+    text-indent: .3rem;
   }
 
   .jumbotron {
@@ -27,5 +32,6 @@ html * {
 
   .tag {
     color: #FF7C26;
+    text-indent: 0;
   }
 }

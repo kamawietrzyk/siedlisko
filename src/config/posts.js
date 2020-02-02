@@ -8,7 +8,7 @@ import pic6 from '../components/PostPreview/pic6.jpg'
 const posts = [
   {
     title: 'Wiosna!',
-    pic: require('../components/PostPreview/pic6.jpg'),
+    pic: pic6,
     path: 'wiosna',
     textShort: 'Nunc mattis gravida quam, a tristique nibh sodales sit amet. Praesent eu imperdiet elit. Praesent non rutrum nulla, quis hendrerit lectus. Proin laoreet nibh ut pulvinar tempor. Aliquam augue dui, pretium et nunc eu, fringilla accumsan ligula. ',
     textLong:

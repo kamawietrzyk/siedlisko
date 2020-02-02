@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
+
 .Permaculture {
   background-color: white;
   padding: 2rem;
@@ -13,22 +15,55 @@
     margin: 3rem auto 1rem auto;
   }
 
-  &__one, &__three {
+  &__one {
     display: flex;
-    padding-left: 2rem;
-    padding-right: 2rem;
-
-    p {
-      margin: auto 0 auto 2rem;
-    }
+    justify-content: space-around;
+    margin: 1rem 0;
   }
 
   &__two {
-    display: flex;
-    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 1.7fr 3fr 2.5fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "spiral text guild";
+    margin-bottom: 2rem;
+
+    .spiral {
+      grid-area: spiral;
+      margin: auto;
+    }
 
     p {
-      margin: auto 2rem auto 0;
+      grid-area: text;
+      margin: auto 1rem;
+      text-align: justify;
     }
+
+    .guild {
+      grid-area: guild;
+      margin-left: 1rem;
+    }
+  }
+
+  span, h3 {
+    color: #FF7C26;
+  }
+
+  a {
+    color: #6c757d;
+
+    &:hover {
+    color: #FF7C26;
+    text-decoration: none;
+    }
+  }
+
+  &__blockquote {
+    font-family: 'PT Mono', monospace;
+    margin: 2rem 5rem;
+    padding: 2rem 3rem;
+    text-align: justify;
+    border: 2px solid #e7e7e7;
   }
 }
