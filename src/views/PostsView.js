@@ -7,7 +7,7 @@ import Pagination from '../components/Pagination'
 const PostsView = () => {
   const [currentPage, setCurrentPage] = useState(1)
   const postsPerPage = 3
-  // const totalPages = Math.ceil(posts.length / postsPerPage)
+  const totalPages = Math.ceil(posts.length / postsPerPage)
 
   const indexOfLastPost = currentPage * postsPerPage
 
@@ -27,7 +27,7 @@ const PostsView = () => {
     <div className="container p-0">
       <ScrollToTopOnMount />
       <Posts slicedPosts={slicedPosts} />
-      <Pagination onNextPage={onNextPage} onPrevPage={onPrevPage} />
+      <Pagination onNextPage={onNextPage} onPrevPage={onPrevPage} currentPage={currentPage} totalPages={totalPages} />
     </div>
   )
 }

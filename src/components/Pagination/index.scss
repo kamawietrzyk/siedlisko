@@ -2,4 +2,15 @@
   background-color: white;
   padding-top: 2rem;
   padding-bottom: .5rem;
+
+  a {
+    color: black;
+    
+    &:hover {
+    color: #FF7C26;
+    }
+    &:focus {
+      box-shadow: none;
+    }
+  }
 }
