@@ -6,7 +6,7 @@ import Pagination from '../components/Pagination'
 
 const PostsView = () => {
   const [currentPage, setCurrentPage] = useState(1)
-  const postsPerPage = 3
+  const postsPerPage = 3 /* docelowo będzie 6 na stronę */
   const totalPages = Math.ceil(posts.length / postsPerPage)
 
   const indexOfLastPost = currentPage * postsPerPage
