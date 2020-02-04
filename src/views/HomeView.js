@@ -9,8 +9,8 @@ const HomeView = () => {
   return (
     <div className="container p-0">
       <ScrollToTopOnMount />
-      {preview.map(({ title, pic, textShort, date, tag }, index) =>
-        <PostPreview key={index} flip={index % 2} title={title} pic={pic} textShort={textShort} date={date} tag={tag} />)}
+      {preview.map((item, index) =>
+        <PostPreview key={index} flip={index % 2} {...item} />)}
     </div>
   )
 }

@@ -4,8 +4,8 @@ import './index.scss'
 
 const Posts = ({ slicedPosts }) => (
   <div className="Posts">
-    {slicedPosts.map(({ title, pic, tag }, index) =>
-      <PostPreviewSmall key={index} title={title} pic={pic} tag={tag} />)}
+    {slicedPosts.map((item, index) =>
+      <PostPreviewSmall key={index} {...item} />)}
   </div>
 )
 
