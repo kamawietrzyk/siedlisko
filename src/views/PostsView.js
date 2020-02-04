@@ -26,7 +26,7 @@ const PostsView = () => {
   return (
     <div className="container p-0">
       <ScrollToTopOnMount />
-      <Posts slicedPosts={slicedPosts} />
+      <Posts posts={slicedPosts} />
       <Pagination onNextPage={onNextPage} onPrevPage={onPrevPage} currentPage={currentPage} totalPages={totalPages} />
     </div>
   )
