@@ -2,7 +2,7 @@
     text-align: center;
 
     img {
-      margin: 40px 0;
+      margin: 40px auto;
     }
 
     hr {
@@ -11,5 +11,11 @@
       background-color: #e7e7e7;
       width: auto;
       margin: 0;
+    }
+
+    @media only screen and (max-width: 600px) {
+      img {
+        padding: .5rem 1rem;
+      }
     }
 }

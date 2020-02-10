@@ -18,8 +18,8 @@ const tabs = [
 const Footer = () => (
   <>
     <div className="Footer">
-      <img src={logoSmall} alt="footer-logo" height="60" />
-      <div>
+      <Link to={URLS.HOME}><img src={logoSmall} alt="footer-logo" height="60" /></Link>
+      <div className="Footer__nav">
         {tabs.map(({ name, label, url }) =>
           <Link
             to={url}
@@ -30,13 +30,13 @@ const Footer = () => (
         )}
       </div>
       <div>
-        <a className="Footer__icon text-muted"><FontAwesomeIcon icon={faFacebookF} /></a>
-        <a className="Footer__icon text-muted"><FontAwesomeIcon icon={faInstagram} /></a>
-        <a className="Footer__icon text-muted"><FontAwesomeIcon icon={faEnvelope} /></a>
+        <a href="https://www.facebook.com/tomtomlittlewind" target="_blank" rel="noopener noreferrer" className="Footer__icon text-muted"><FontAwesomeIcon icon={faFacebookF} /></a>
+        <a href="https://www.instagram.com/_kamykowe_/" target="_blank" rel="noopener noreferrer" className="Footer__icon text-muted"><FontAwesomeIcon icon={faInstagram} /></a>
+        <a href={URLS.CONTACT} className="Footer__icon text-muted"><FontAwesomeIcon icon={faEnvelope} /></a>
       </div>
     </div>
     <div className="text-center pt-2 pb-1 text-muted">
-      <small>Copyright &copy; 2020 Kama Swoboda-Wietrzyk. All rights reserved.</small>
+      <small>Copyright &copy; 2020 Kama Swoboda-Wietrzyk.<br/> All rights reserved.</small>
     </div>
   </>
 )

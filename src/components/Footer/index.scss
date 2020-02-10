@@ -24,4 +24,22 @@
       cursor: pointer;
     }
   }
+
+  @media (max-width: 786px) {
+    
+    padding: 1.5rem 1rem;
+    align-items: start;
+
+    &__link, &__icon {
+      display: block;
+    }
+
+    img {
+      height: 60px;
+    }
+
+    &__icon {
+      margin-right: 0;
+    }
+  }
 }    
