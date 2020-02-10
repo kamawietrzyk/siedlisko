@@ -15,11 +15,10 @@ const PostsView = () => {
 
   const slicedPosts = posts.slice(indexOfFirstPost, indexOfLastPost)
 
-  const onNextPage = () => {
-    setCurrentPage(currentPage + 1)
-  }
-
-  const onPrevPage = () => {
+  const onPageChange = direction => () => {
+    if (direction === 'next') {
+      return setCurrentPage(currentPage + 1)
+    }
     setCurrentPage(currentPage - 1)
   }
 
@@ -27,7 +26,7 @@ const PostsView = () => {
     <div className="container p-0">
       <ScrollToTopOnMount />
       <Posts posts={slicedPosts} />
-      <Pagination onNextPage={onNextPage} onPrevPage={onPrevPage} currentPage={currentPage} totalPages={totalPages} />
+      <Pagination onChange={onPageChange} currentPage={currentPage} totalPages={totalPages} />
     </div>
   )
 }
