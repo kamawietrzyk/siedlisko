@@ -6,10 +6,4 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto);
   grid-gap: 3rem;
-
-  &__pagination {
-    background-color: white;
-    padding-top: 2rem;
-    padding-bottom: .5rem;
-  }
 }
