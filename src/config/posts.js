@@ -20,7 +20,7 @@ const posts = [
     Morbi ultricies auctor dui ac mattis. Nunc purus nibh, vehicula vitae ex pulvinar, pharetra pellentesque ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id ante non dui lobortis laoreet vel ut dolor. Mauris ipsum mauris, auctor at finibus in, suscipit a dolor. Vivamus pellentesque augue hendrerit, interdum augue quis, tempor ipsum. Cras bibendum est ut ligula molestie, id pellentesque metus mollis. Ut sodales efficitur lorem, eget dictum erat cursus eget. Sed vitae risus elementum, dignissim nisl vel, sagittis nulla. Duis eget ullamcorper felis.</p>
       <p>
     Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus quam dui, mollis ut ipsum ac, rhoncus porttitor velit. Donec sodales elit vitae tempor elementum. Nullam ut nulla eget ipsum lacinia egestas ac vel magna. Curabitur euismod magna fringilla augue vulputate, a commodo diam interdum. Sed tincidunt hendrerit arcu semper pulvinar. Nulla sit amet porttitor eros. In dignissim arcu sed lorem mattis molestie. Pellentesque pellentesque velit ut vehicula iaculis. In vitae felis eu leo rutrum euismod ornare vel erat. Sed et neque ac est consectetur varius dapibus quis sem. Etiam faucibus neque nec neque varius, in fermentum mi elementum. Fusce in augue vitae magna malesuada imperdiet. Curabitur vitae lobortis sapien. Vivamus est odio, posuere fringilla ullamcorper quis, vulputate vulputate orci.</p>
-      <img src={pic2} alt="pic" width="50%" className="my-4" />
+      <img src={pic2} alt="pic" width="60%" className="my-4" />
     </>,
     date: '02/02/2020',
     tag: '#zimazimapiaskunima'
