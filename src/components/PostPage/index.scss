@@ -20,11 +20,13 @@
     }
 
     p {
-      text-align: left;
+      text-align: justify;
+      text-indent: 2rem;
     }
 
     .tag {
       text-align: center;
+      text-indent: 0;
     }
   }
 
@@ -42,8 +44,21 @@
     &--posts {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
+    grid-template-rows: 2fr;
     grid-gap: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 958px) {
+    margin: 0;
+  }
+
+  @media only screen and (max-width: 786px) {
+
+    &__suggestion--posts {
+      grid-template-columns: auto;
+      grid-template-rows: repeat(3, auto);
+      padding: 1rem;
     }
   }
 }

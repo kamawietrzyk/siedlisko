@@ -36,4 +36,49 @@
     grid-template-areas: 
     "div img";
   }
+
+  @media only screen and (max-width: 786px) {
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "img"
+    "div";
+
+    &__text {
+      padding: 2rem;
+    }
+
+    &.flipped {
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "img"
+    "div";
+    }
+  }
+
+  @media only screen and (min-width: 787px) and (max-width: 992px) {
+
+    &__text {
+      padding: 0 1rem 1rem 1rem;
+      box-shadow: none;
+      h2 {
+        font-size: 1.4rem;
+      }
+      h3, p {
+        font-size: 85%;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+    &__text {
+      padding: 1rem;
+      box-shadow: none;
+
+      h3, p {
+        font-size: 90%;
+      }
+    }
+  }
 }

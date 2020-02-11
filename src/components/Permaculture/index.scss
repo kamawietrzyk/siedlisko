@@ -8,6 +8,7 @@
 
   p {
     text-indent: 2rem;
+    text-align: justify;
   }
 
   h1 {
@@ -68,5 +69,44 @@
     padding: 2rem 3rem;
     text-align: justify;
     border: 2px solid #e7e7e7;
+  }
+
+  @media only screen and (max-width: 786px) {
+    padding: 1.5rem;
+
+    &__blockquote {
+      margin: 2rem 0;
+      padding: 1.5rem;
+    }
+
+    &__one {
+      display: block;
+    }
+
+    &__two {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: 
+    "text text"
+    "spiral guild";
+
+    .guild {
+      margin: 0;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 787px) and (max-width: 985px) {
+    &__one {
+      display: block;
+    }
+
+    &__two {
+      grid-template-columns: auto;
+      grid-template-rows: repeat(2, auto);
+      grid-template-areas: 
+      "text text"
+      "spiral guild";
+    }
   }
 }

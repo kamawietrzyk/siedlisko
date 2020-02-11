@@ -12,5 +12,14 @@
   h1 {
     margin: 2rem 0;
   }
+  @media (max-width: 786px) {
 
+    img {
+      width: 50%;
+    }
+
+    h1 {
+      margin: 1.5rem 0;
+    }
+  }
 }
