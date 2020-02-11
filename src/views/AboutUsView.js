@@ -4,7 +4,7 @@ import ScrollToTopOnMount from '../components/ScrollToTop'
 
 const AboutUsView = () => (
   <>
-    <div className="container">
+    <div className="container p-0">
       <ScrollToTopOnMount />
       <AboutUs />
     </div>

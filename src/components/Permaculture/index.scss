@@ -11,10 +11,6 @@
     text-align: justify;
   }
 
-  h1 {
-    margin-bottom: 2rem;
-  }
-
   &__pic {
     display: block;
     margin: 3rem auto 1rem auto;
@@ -72,7 +68,7 @@
   }
 
   @media only screen and (max-width: 786px) {
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
 
     &__blockquote {
       margin: 1rem 0;
