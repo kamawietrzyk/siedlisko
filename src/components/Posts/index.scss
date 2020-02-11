@@ -15,5 +15,6 @@
   @media only screen and (max-width: 600px) {
     grid-template-columns: auto;
     grid-template-rows: repeat(6, auto);
+    padding: 2rem 2rem 0 2rem;
   }
 }
