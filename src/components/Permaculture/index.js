@@ -28,7 +28,7 @@ const Permaculture = () => (
             <li>Troska o ludzi,</li>
             <li>Sprawiedliwy podział.</li>
           </ul>
-          <img src={spiral} className="m-2" alt="design1" width="290" />
+          <img src={spiral} className="m-2" alt="design1" width="55%" />
         </div>
         <div>
           <h3 className="mt-4">12 zasad projektowania:</h3>
