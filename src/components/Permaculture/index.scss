@@ -42,8 +42,9 @@
 
   &__two {
     display: flex;
-    justify-content: space-around;
     margin: 1rem 0;
+    padding: 0 2rem;
+    text-align: left;
   }
 
   span, h3 {
@@ -101,7 +102,7 @@
 
     &__two {
       display: block;
-      text-align: left;
+      padding: 0;
     }
   }
 
