@@ -61,7 +61,7 @@
     border: 2px solid #e7e7e7;
   }
 
-  @media only screen and (min-width: 600px) and (max-width: 786px) {
+  @media only screen and (min-width: 600px) {
     padding: 0 2rem;
 
     &__blockquote {
@@ -71,7 +71,7 @@
     }
   }
 
-  @media only screen and (min-width: 787px) and (max-width: 958px) {
+  @media only screen and (min-width: 787px) {
     padding: 0 2rem 1rem 2rem;
     text-align: justify;
 
@@ -92,14 +92,7 @@
 
   @media only screen and (min-width: 959px) {
     padding: 0 2rem 3rem 2rem;
-    text-align: justify;
 
-    &__blockquote {
-      font-size: 100%;
-      margin: 2rem 3rem;
-      padding: 2rem 3rem;
-      text-align: justify;
-    }
     &__one {
       display: grid;
       grid-template-columns: 1.7fr 3fr 2.5fr;

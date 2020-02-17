@@ -4,7 +4,7 @@
   &__text, &__suggestion {
     background-color: white;
     margin-top: 2.5rem;
-    padding: .5rem 1rem 2rem 1rem;
+    padding: .5rem 2rem 2rem 2rem;
     box-shadow: 0px 1px 10px 0px rgba(227,227,227,0.5);
   }
 
@@ -46,43 +46,27 @@
     }
   }
 
-  @media only screen and (min-width: 601px) and (max-width: 750px) {
+  @media only screen and (min-width: 601px) {
     margin: 0 2rem;
     &__suggestion {
     padding: 1rem 2rem 2rem 2rem;
     }
   }
 
-  @media only screen and (min-width: 751px) and (max-width: 958px) {
+  @media only screen and (min-width: 787px) {
     margin: 0 3rem;
     &__text {
-      padding: 1rem 2rem 3rem 2rem;
+      padding: .5rem 2rem 3rem 2rem;
     }
     
-    &__suggestion {
-      padding: 1rem 2rem 2rem 2rem;
-      &--posts {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 2fr;
-        grid-gap: 2rem;
-      }
+    &__suggestion--posts {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 2fr;
+      grid-gap: 2rem;
     }
   }
 
   @media only screen and (min-width: 959px) {
     margin: 0 5rem;
-
-    &__text {
-      padding: .5rem 2rem 3rem 2rem;
-    }
-    
-    &__suggestion {
-      padding: 1rem 2rem 2rem 2rem;
-      &--posts {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 2fr;
-        grid-gap: 2rem;
-      }
-    }
   }
 }
