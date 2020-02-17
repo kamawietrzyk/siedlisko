@@ -2,13 +2,12 @@
 
 .Permaculture {
   background-color: white;
-  padding: 2rem;
+  padding: 0rem 1rem 1rem 1rem;
   box-shadow: 0px 1px 10px 0px rgba(227,227,227,0.5);
   margin-top: 3rem;
-  text-align: justify;
 
   p {
-    text-indent: 2rem;
+    text-indent: 1.5rem;
   }
 
   &__pic {
@@ -18,22 +17,20 @@
 
   &__one {
     display: grid;
-    grid-template-columns: 1.7fr 3fr 2.5fr;
-    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, auto);
     grid-template-areas: 
-    "spiral text guild";
-    margin-bottom: 2rem;
+    "text text"
+    "spiral guild";
 
     .spiral {
       grid-area: spiral;
       margin: auto;
     }
-
-    p {
+    .text {
       grid-area: text;
       margin: auto 1rem;
     }
-
     .guild {
       grid-area: guild;
       margin-left: 1rem;
@@ -41,10 +38,7 @@
   }
 
   &__two {
-    display: flex;
-    margin: 1rem 0;
-    padding: 0 2rem;
-    text-align: left;
+    display: block;
   }
 
   span, h3 {
@@ -53,7 +47,6 @@
 
   a {
     color: #6c757d;
-
     &:hover {
     color: #FF7C26;
     text-decoration: none;
@@ -62,61 +55,64 @@
 
   &__blockquote {
     font-family: 'PT Mono', monospace;
-    margin: 2rem 5rem;
-    padding: 2rem 3rem;
+    font-size: 80%;
+    padding: 1rem;
+    margin: 1rem 0;
     border: 2px solid #e7e7e7;
-    text-align: justify;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (min-width: 600px) and (max-width: 786px) {
+    padding: 0 2rem;
 
     &__blockquote {
-      text-align: center;
+      text-align: justify;
       padding: 1rem 2rem;
+      margin: 1rem;
     }
   }
 
-  @media only screen and (max-width: 786px) {
-    padding: 0 1rem 1rem 1rem;
+  @media only screen and (min-width: 787px) and (max-width: 958px) {
+    padding: 0 2rem 1rem 2rem;
+    text-align: justify;
 
-    p {
-      text-indent: 1.5rem;
+    &__one {
+      grid-template-columns: auto;
+      grid-template-rows: repeat(2, auto);
+      grid-template-areas: 
+      "text text"
+      "spiral guild";
     }
+    &__blockquote {
+      font-size: 100%;
+      margin: 2rem 3rem;
+      padding: 2rem 3rem;
+      text-align: justify;
+    }
+  }
+
+  @media only screen and (min-width: 959px) {
+    padding: 0 2rem 3rem 2rem;
+    text-align: justify;
 
     &__blockquote {
+      font-size: 100%;
+      margin: 2rem 3rem;
+      padding: 2rem 3rem;
+      text-align: justify;
+    }
+    &__one {
+      display: grid;
+      grid-template-columns: 1.7fr 3fr 2.5fr;
+      grid-template-rows: auto;
+      grid-template-areas: 
+      "spiral text guild";
+      margin-bottom: 2rem;
+    }
+    &__two {
+      display: flex;
       margin: 1rem 0;
-      padding: 1rem;
-    }
-
-    &__one {
-      grid-template-columns: auto;
-      grid-template-rows: repeat(2, auto);
-      grid-template-areas: 
-      "text text"
-      "spiral guild";
-
-      .guild {
-        margin: 0;
-      }
-    }
-
-    &__two {
-      display: block;
-      padding: 0;
-    }
-  }
-
-  @media only screen and (min-width: 787px) and (max-width: 985px) {
-    &__one {
-      grid-template-columns: auto;
-      grid-template-rows: repeat(2, auto);
-      grid-template-areas: 
-      "text text"
-      "spiral guild";
-    }
-
-    &__two {
-      display: block;
+      padding: 0 2rem;
+      text-align: left;
     }
   }
 }

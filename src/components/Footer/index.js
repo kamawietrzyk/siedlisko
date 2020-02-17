@@ -18,7 +18,7 @@ const tabs = [
 const Footer = () => (
   <>
     <div className="Footer">
-      <Link to={URLS.HOME}><img src={logoSmall} alt="footer-logo" height="60" /></Link>
+      <Link to={URLS.HOME}><img src={logoSmall} alt="footer-logo"/></Link>
       <div className="Footer__nav">
         {tabs.map(({ name, label, url }) =>
           <Link

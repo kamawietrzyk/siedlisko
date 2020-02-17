@@ -1,12 +1,12 @@
 .Footer {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  padding: 2rem 3rem;
   border-top: 1px solid #e7e7e7;
+  padding: 1.5rem 1rem;
+  align-items: flex-start;
 
   &__link {
-    display: inline-flex;
+    display: block;
     color: #6c757d;
     padding: 0 .5rem;
   
@@ -17,29 +17,32 @@
     }
   }
   &__icon {
-    display: inline-block;
-    margin-right: 1rem;
+    display: block;
+    margin-right: 0;
 
     &:hover {
       cursor: pointer;
     }
   }
+  img { 
+    height: 50px;
+  }
 
-  @media (max-width: 786px) {
+  @media (min-width: 787px) {
     
-    padding: 1.5rem 1rem;
-    align-items: start;
+    align-items: center;
+    padding: 2rem 3rem;
 
-    &__link, &__icon {
-      display: block;
-    }
-
-    img {
-      height: 60px;
+    &__link {
+      display: inline-flex;
     }
 
     &__icon {
-      margin-right: 0;
+      display: inline-block;
+      margin-right: 1rem;
+    }
+    img { 
+      height: 65px;
     }
   }
 }    
