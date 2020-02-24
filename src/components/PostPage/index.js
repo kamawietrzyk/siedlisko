@@ -19,7 +19,7 @@ const PostPage = ({ post, related }) => {
         </div>
       </div>
       <div className="PostPage__suggestion">
-        <h2>Może Cię zainteresować</h2>
+        <h2>Może Cię też zainteresować:</h2>
         <div className="PostPage__suggestion--posts">
           {related.map((item, index) =>
             <PostPreviewSmall key={index} {...item} />

@@ -5,7 +5,7 @@ import './index.scss'
 
 const AboutUs = () => (
   <div className="AboutUs">
-    <img src={ryjki} alt="about-us-pic" width="20%" />
+    <img src={ryjki} alt="about-us-pic"/>
     <div className="AboutUs__text">
       <h1 className="text-center">Cześć!</h1>
       <p>Nazywamy się <span>Kama</span> i <span>Tomek Wietrzyk</span>. Jesteśmy dobrymi przyjaciółmi od stu lat, zakochaną parą od trzynastu, a od ostatnich sześciu - szczęśliwym małżeństwem. Kama - z wykształcenia magister sztuki - skrzypaczka, od niedawna z zawodu programistka FE, miłośniczka szycia, malowania akwareli i wszelkiego rodzaju rękodzieła. Tomek - z wykształcenia technik-leśnik, z zawodu barista z ogromną wiedzą i miłością do kawy, hobbystycznie artysta malarz. Wspólnie postrzegani jesteśmy jako para ekoludków. W 2016 roku do tego duetu dołączył on - syn nasz pierworodny - <span>Tymek</span>. Wywrócił nasze dotychczasowe życie do góry nogami, ale to dzięki niemu jesteśmy tu, gdzie jesteśmy.</p>

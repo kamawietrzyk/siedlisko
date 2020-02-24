@@ -16,7 +16,7 @@ const Permaculture = () => (
       <p className="Permaculture__blockquote"><span>Permakultura</span> jest systemem projektowania, w którym tworzy się trwałe środowiska ludzkie. Słowo &quot;permakultura&quot; powstało z połączenia słowa <span>permanent</span> (&quot;trwałe&quot;, łac. <em>permaneo</em> - &quot;wytrwać&quot; i &quot;utrzymać się&quot;) ze słowem <span>agriculture</span> (&quot;rolnictwo&quot;), a także słowem <em>culture</em> (&quot;kultura&quot;, łac. <em>cultura</em> - &quot;uprawa&quot;, &quot;hodowla&quot;), ponieważ kultura nie może przetrwać bez zrównoważonej bazy rolniczej i etyki użytkowania ziemi. Z jednej strony permakultura zajmuje się roślinami, zwierzętami, budynkami i infrastrukturą (wodną, energetyczną, komunikacyjną), z drugiej nie traktuje o tych elementach ze względu na nie same, lecz ze względu na związki, jakie możemy między nimi ustanowić dzięki odpowiedniemu rozmieszczeniu ich w terenie. Celem tak rozumianej permakultury jest tworzenie przyjaznych dla środowiska i ekonomicznie wydajnych systemów, zaspokajających własne potrzeby, nieeksploatujących ani niezanieczyszczających otoczenia, a co za tym idzie - długotrwałych.</p>
       <div className="Permaculture__one">
         <img className="spiral" src={herbSpiral} alt="herb-spiral" width="75%"/>
-        <p>Te ryciny przedstawiają dwa z bardzo wielu elementów charakterystycznych dla projektów permakulturowych - pierwszy to przydomowa spirala ziołowa, drugi - gildia drzewa owocowego wraz z opisem funkcji roślin towarzyszących.</p>
+        <p className="text">Te ryciny przedstawiają dwa z bardzo wielu elementów charakterystycznych dla projektów permakulturowych - pierwszy to przydomowa spirala ziołowa, drugi - gildia drzewa owocowego wraz z opisem funkcji roślin towarzyszących.</p>
         <img className="guild" src={permguild} alt="permaculture-guild" width="100%" />
       </div>
       <p>Kolejną osobowością, o której nie można nie wspomnieć, mówiąc o podstawach permakultury, jest David Holmgren. Ten australijski inżynier-ekolog i publicysta jest współtwórcą, wraz z Billem Mollisonem, koncepcji permakultury. Sformułował on zasady etyczne warunkujące stosowanie dwunastu reguł projektowania. Etyka stoi na straży ich właściwej realizacji i odpowiedniego wprowadzania w życie.</p>
@@ -28,7 +28,7 @@ const Permaculture = () => (
             <li>Troska o ludzi,</li>
             <li>Sprawiedliwy podział.</li>
           </ul>
-          <img src={spiral} className="m-2" alt="design1" width="55%" />
+          <img src={spiral} className="my-3" alt="design1" width="50%" />
         </div>
         <div>
           <h3 className="mt-4">12 zasad projektowania:</h3>
