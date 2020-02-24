@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and is available to view at [siedlisko.wietrzyk.com](https://siedlisko.wietrzyk.com/)
 
 ## Available Scripts
 
