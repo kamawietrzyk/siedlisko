@@ -5,6 +5,7 @@ import wheel from './wheel.jpg'
 import permguild from './permguild.jpg'
 import herbSpiral from './herbSpiral.jpeg'
 import spiral from './spiral.svg'
+import PopupImage from '../PopupImage'
 
 const Permaculture = () => (
   <>
@@ -17,7 +18,7 @@ const Permaculture = () => (
       <div className="Permaculture__one">
         <img className="spiral" src={herbSpiral} alt="herb-spiral" width="75%"/>
         <p className="text">Te ryciny przedstawiają dwa z bardzo wielu elementów charakterystycznych dla projektów permakulturowych - pierwszy to przydomowa spirala ziołowa, drugi - gildia drzewa owocowego wraz z opisem funkcji roślin towarzyszących.</p>
-        <img className="guild" src={permguild} alt="permaculture-guild" width="100%" />
+        <PopupImage className="guild" src={permguild} alt="permaculture-guild" />
       </div>
       <p>Kolejną osobowością, o której nie można nie wspomnieć, mówiąc o podstawach permakultury, jest David Holmgren. Ten australijski inżynier-ekolog i publicysta jest współtwórcą, wraz z Billem Mollisonem, koncepcji permakultury. Sformułował on zasady etyczne warunkujące stosowanie dwunastu reguł projektowania. Etyka stoi na straży ich właściwej realizacji i odpowiedniego wprowadzania w życie.</p>
       <div className="Permaculture__two">
@@ -49,7 +50,7 @@ const Permaculture = () => (
         </div>
       </div>
       <p className="mt-4">Permakulturowe zasady etyczne oraz 12 zasad projektowania pięknie przedstawia poniższa grafika, a szczegółowy opis każdej z zasad znajdziesz na stronie <a href="https://permacultureprinciples.com/" target="_blank" rel="noopener noreferrer">PermaculturePrinciples.com</a>. Znajdziesz tam również do pobrania broszurę pt. <a href="https://permacultureprinciples.com/resources/free-downloads/" target="_blank" rel="noopener noreferrer">&ldquo;Istota permakultury&ldquo;</a>, która podsumowuje zasady i pojęcia (także w polskiej wersji językowej!). Ciekawostka - australijski zespół Formidable Vegetable stworzył album pt. &ldquo;Permaculture: A Rhymer`s Manual&ldquo; - 12 utworów, każdy o jednej z 12 zasad Holmgrena (do posłuchania <a href="https://soundcloud.com/formidablevegetable/sets/permaculture-a-rhymers-manual" target="_blank" rel="noopener noreferrer">tutaj</a>).</p>
-      <img className="Permaculture__pic" src={wheel} alt="holmgren-permaculture-basics" width="85%" />
+      <PopupImage src={wheel} alt="holmgren-permaculture-basics"/>
       <p>W Polsce ruch permakulturowy rozwija się coraz prężniej. Według nas najbardziej przyczyniają się do tego rozwoju panowie Wojciech Górny (<a href="https://permisie.pl/" target="_blank" rel="noopener noreferrer">Permisie.pl</a>) i Bez Lazar (<a href="https://permakultura.edu.pl/" target="_blank" rel="noopener noreferrer">Permakultura.edu.pl</a>). Obydwaj posiadają ogromną wiedzę, którą chętnie się dzielą z początkującymi pasjonatami permakultury, a na prowadzonych przez nich platformach znajdziesz mnóstwo szczegółowych informacji, linki do literatury fachowej (w tym polskie wydania &ldquo;Ogrodu Gai&ldquo; Toby`ego Hemenwaya oraz wspomniane już wcześniej &ldquo;Wprowadzenie do permakultury&ldquo; Billa Mollisona & Reny M. Slay), kursy projektowania, webinary i wiele, wiele innych.</p>
       <p className="mt-4">Na koniec odrobina filozofii - bo permakultura to nie tylko projekty, zasady, planowanie, wyliczenia, nasadzenia... To także - a może właśnie przede wszystkim - <span>idea</span>. Wojciech Górny w artykule pt. &ldquo;Perma co? Jaka kultura?&ldquo; (całość do przeczytania w <a href="https://permakultura.edu.pl/wp-content/uploads/2wyTworcy.pdf" target="_blank" rel="noopener noreferrer">Magazynie WyTwórcy</a>, #02/15) opisuje ją tak:</p>
       <p className="Permaculture__blockquote">Permakultura jako dobro intelektualne jest w rozumieniu jej twórcy, Billa Mollisona, własnością całkowicie rozproszoną – każdy absolwent kursu projektowania permakulturowego staje się współwłaścicielem permakultury i może ją praktykować, krzewić i rozwijać w dowolny sposób. Permakultura jest więc społecznością projektantów, nieformalną organizacją o światowym zasięgu, której rozproszenie, brak majątku, centralnych władz, ciał organizacyjnych, budżetów i komitetów czyni praktycznie niezniszczalną. Idei bowiem, przekazywanej w ramach kursów projektowania permakulturowego i zakorzenionej głęboko w absolwentach takich kursów, nie sposób powstrzymać i zniszczyć.</p>
