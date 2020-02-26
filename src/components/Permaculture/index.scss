@@ -10,15 +10,11 @@
     text-indent: 1.5rem;
   }
 
-  &__pic {
-    display: block;
-    margin: 3rem auto 1rem auto;
-  }
-
   &__one {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: repeat(2, auto);
+    grid-row-gap: 1rem;
     grid-template-areas: 
     "text text"
     "spiral guild";
@@ -95,7 +91,7 @@
 
     &__one {
       display: grid;
-      grid-template-columns: 1.7fr 3fr 2.5fr;
+      grid-template-columns: 1.7fr 3fr 3fr;
       grid-template-rows: auto;
       grid-template-areas: 
       "spiral text guild";
