@@ -18,7 +18,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 1rem;
+    padding: .5rem;
   }
 
   &__image {
@@ -26,10 +26,29 @@
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 60%;
+      width: 90%;
     }
   }
   &__icon:hover {
     cursor: pointer;
+  }
+
+  @media only screen and (min-width: 601px) {
+    &__image {
+      img {
+        width: 70%;
+      }
+    }
+  }
+  
+  @media only screen and (min-width: 801px) {
+    &__dialog {
+      padding: 1rem;
+    }
+    &__image {
+      img {
+        width: 60%;
+      }
+    }
   }
 }

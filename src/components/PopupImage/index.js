@@ -6,16 +6,12 @@ import './index.scss'
 const PopupImage = ({ src, alt }) => {
   const [isOpen, setIsOpen] = useState(false)
 
-  const toggleDialog = () => {
-    setIsOpen(!isOpen)
-  }
-
   return (
     <div>
       <img
         className="PopupImage__small"
         src={src}
-        onClick={toggleDialog}
+        onClick={() => setIsOpen(!isOpen) }
         alt={alt}
       />
       {isOpen && (
@@ -23,7 +19,7 @@ const PopupImage = ({ src, alt }) => {
           <div className="PopupImage__image">
             <img src={src} alt={alt} />
           </div>
-          <FontAwesomeIcon className="PopupImage__icon" icon={faTimes} size="2x" onClick={toggleDialog} />
+          <FontAwesomeIcon className="PopupImage__icon" icon={faTimes} size="2x" onClick={() => setIsOpen(!isOpen) } />
         </div>
       )}
     </div>
