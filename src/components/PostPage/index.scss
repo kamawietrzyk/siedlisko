@@ -4,7 +4,7 @@
   &__text, &__suggestion {
     background-color: white;
     margin-top: 2.5rem;
-    padding: .5rem 2rem 2rem 2rem;
+    padding: .5rem 1rem 2rem 1rem;
     box-shadow: 0px 1px 10px 0px rgba(227,227,227,0.5);
   }
 
@@ -19,19 +19,21 @@
     }
 
     p {
-      text-align: justify;
+      text-align: left;
       text-indent: 2rem;
+      font-size: 90%;
     }
 
     .tag {
       text-align: center;
       text-indent: 0;
+      font-size: 100%;
     }
-  }
 
-  &__button {
-    text-align: left;
-    margin-top: 3rem;
+    &--button {
+      text-align: left;
+      margin-top: 3rem;
+    }
   }
 
   &__suggestion {
@@ -49,14 +51,22 @@
   @media only screen and (min-width: 601px) {
     margin: 0 2rem;
     &__suggestion {
-    padding: 1rem 2rem 2rem 2rem;
+      padding: 1rem 2rem 2rem 2rem;
+    }
+    &__text {
+      padding: .5rem 2rem 3rem 2rem;
+      p {
+        font-size: 100%;
+      }
     }
   }
 
   @media only screen and (min-width: 787px) {
     margin: 0 3rem;
     &__text {
-      padding: .5rem 2rem 3rem 2rem;
+      p {
+        text-align: justify;
+      }
     }
     
     &__suggestion--posts {

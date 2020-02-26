@@ -14,7 +14,7 @@ const PostPage = ({ post, related }) => {
         <h1>{title}</h1>
         <h3 className="text-muted">{date}</h3>
         <div>{textLong}</div>
-        <div className="PostPage__button">
+        <div className="PostPage__text--button">
           <Link to={URLS.POSTS} className="btn btn-outline-dark">&laquo; Wróć do postów</Link>
         </div>
       </div>
