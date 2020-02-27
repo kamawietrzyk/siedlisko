@@ -1,143 +1,24 @@
 import React from 'react'
-import pic2 from '../components/PostPreview/pic2.jpg'
-import pic3 from '../components/PostPreview/pic3.jpg'
-import pic4 from '../components/PostPreview/pic4.jpg'
-import pic5 from '../components/PostPreview/pic5.jpg'
-import pic6 from '../components/PostPreview/pic6.jpg'
-import pic7 from '../components/PostPreview/pic7.jpg'
+import wpis1 from './pics/wpis1.jpg'
 
 const posts = [
   {
-    title: 'Zima w ogrodzie',
-    pic: pic7,
-    path: 'zima-w-ogrodzie',
-    textShort: 'Nunc mattis gravida quam, a tristique nibh sodales sit amet. Praesent eu imperdiet elit. Praesent non rutrum nulla, quis hendrerit lectus. Proin laoreet nibh ut pulvinar tempor. Aliquam augue dui, pretium et nunc eu, fringilla accumsan ligula. ',
+    title: 'A bez retencji... nie ma retencji!',
+    pic: wpis1,
+    path: 'a-bez-retencji-nie-ma-retencji',
+    textShort: 'Na każdym zebraniu jest tak, że ktoś musi zacząć. No to pyk. Gdy dostajesz na własność taki kawał ziemi zastanawiasz się, jak to wszystko logicznie ugryźć - zadanie niełatwe, biorąc pod uwagę fakt, że - po pierwsze - na początku... ',
     textLong:
     <>
-      <p>
-    Phasellus sodales nibh sed est semper, a tristique diam sodales. Sed interdum massa nec odio convallis venenatis. Ut ornare id lacus a venenatis. Etiam quam turpis, luctus ac volutpat non, rutrum varius sem. Nunc blandit dolor libero, ac varius felis finibus ac. Nam ut tortor eu dui mattis condimentum. Donec a est at nisl porttitor molestie. Sed bibendum iaculis tellus. Vivamus eu rutrum dui, et fringilla lacus. Sed imperdiet orci vitae ullamcorper volutpat. Donec viverra nulla quis ante fermentum, a viverra massa semper.</p>
-      <p>
-    Morbi ultricies auctor dui ac mattis. Nunc purus nibh, vehicula vitae ex pulvinar, pharetra pellentesque ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id ante non dui lobortis laoreet vel ut dolor. Mauris ipsum mauris, auctor at finibus in, suscipit a dolor. Vivamus pellentesque augue hendrerit, interdum augue quis, tempor ipsum. Cras bibendum est ut ligula molestie, id pellentesque metus mollis. Ut sodales efficitur lorem, eget dictum erat cursus eget. Sed vitae risus elementum, dignissim nisl vel, sagittis nulla. Duis eget ullamcorper felis.</p>
-      <p>
-    Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus quam dui, mollis ut ipsum ac, rhoncus porttitor velit. Donec sodales elit vitae tempor elementum. Nullam ut nulla eget ipsum lacinia egestas ac vel magna. Curabitur euismod magna fringilla augue vulputate, a commodo diam interdum. Sed tincidunt hendrerit arcu semper pulvinar. Nulla sit amet porttitor eros. In dignissim arcu sed lorem mattis molestie. Pellentesque pellentesque velit ut vehicula iaculis. In vitae felis eu leo rutrum euismod ornare vel erat. Sed et neque ac est consectetur varius dapibus quis sem. Etiam faucibus neque nec neque varius, in fermentum mi elementum. Fusce in augue vitae magna malesuada imperdiet. Curabitur vitae lobortis sapien. Vivamus est odio, posuere fringilla ullamcorper quis, vulputate vulputate orci.</p>
-      <img src={pic2} alt="pic" width="60%" className="my-4" />
+      <p>Na każdym zebraniu jest tak, że ktoś musi zacząć.
+      No to pyk.</p>
+      <p>Gdy dostajesz na własność taki kawał ziemi zastanawiasz się, jak to wszystko logicznie ugryźć - zadanie niełatwe, biorąc pod uwagę fakt, że - po pierwsze - na początku nic nie można ruszyć, tylko trzeba obserwować, obserwować i jeszcze raz obserwować (a rączki do roboty świerzbią..!), a po drugie - jak już tak poobserwujesz - uświadamiasz sobie, ile tu będzie do zrobienia i jak wiele będzie można łatwo spier… popsuć przez nieuwagę albo pośpiech. Dlatego trzeba powoli. I po kolei. No a jak po kolei to pierwsza jest woda. ZAWSZE. Raczej oczywista oczywistość, że bez wody całe nasze ogródki, ogrody, sady czy inne gildie można sobie wsadzić głęboko i zakręcić.</p>
+      <p>Obserwacja popłaca.</p>
+      <p>Postanowiłem zacząć od działań w lesie, w końcu tytuł zawodowy zobowiązuje. Zanim jeszcze wziąłem się za obserwowanie stricte cieków wodnych, pierwsze co to szukałem roślin wskaźnikowych - a było ich niemało. W lesie odkryłem kilka gatunków sitów i kaczeńce błotne (Caltha palustris L.). Pamietałem też, że kilka lat wcześniej spacerując w tamtym miejscu zgubiłem tam gumowca, który został bezpardonowo i z zaskoczenia zassany przez błotnistą kałużę - znaczy woda tam po prostu była. Wiedząc już, co w tym miejscu rośnie i że jest tam woda stojąca, zacząłem się zastanawiać, skąd ta woda dokładnie spływa i analizując nachylenie terenu odkryłem kilka źródeł, które po delikatnym skorygowaniu okazały się strzałem w 10. Niewielki deszcz i małe wodospady płynęły żywym nurtem w kierunku, który wcześniej przewidziałem (tudzież przeobserowałem). Jedyne, czego mi brakowało do pełni szczęścia to dół, w którym ta cała woda mogłaby się gromadzić. Tu wielkiej filozofii nie było - za łopatę i kopanie. Kilka godzin później miałem już pierwszy zbiornik! Dziś, po wielu tygodniach pracy i wielu litrach przelanej wody opadowej mamy w lesie 4 zbiorniki przelewowe (mamy to szczęście, że las jest na stoku, więc wystarczyło tylko odpowiednio kopnąć i pokierować tę wodę, żeby jak najwięcej jej zatrzymać). Teraz zaczniemy obsadzać to wszystko roślinami filtrującymi - mamy upatrzone około 14 gatunków, ale musimy je połączyć i dobrać tak, by stworzyły spójne ekosystemy z roślinami, które już tam rosną, i poczuły się dobrze w swoim (i naszym) towarzystwie.</p>
+      <p>Korzyści (poza tymi oczywistymi, tj.wodą) z posiadania w lesie zbiornika wodnego przyszły szybciej, niż się spodziewałem - kilka dni temu, gdy szedłem z łopatą, by uregulować jeden z cieków, zauważyłem przy oczku sarnę, która na mój widok zaniechała picia i spłoszona uciekła w krzaczory. Ilość ptaków także ewidentnie wzrosła, chociaż - jak twierdzi Kama - może to być też związane ze zbliżającą się wiosną albo z faktem, że niedawno wysiewaliśmy tam koniczynę - darmowe jedzonko, wiadomo. W każdym razie, jest dobrze!</p>
+      <p>Kolejnym zadaniem będzie stworzenie zbiornika wodnego w górnej części działki, na szczycie naszej Góry Wiatrów, przy planowanej supergildii - tu będzie trudniej, ale z obserwacji wynika, że warunki są, dlatego jest to wyzwanie, na które jestem gotów! O postępach będę informować na łamach tegoż bloga. <br/> No i cześć! <br/>T.</p>
     </>,
-    date: '02/02/2020',
-    tag: '#zimazimapiaskunima'
-  },
-  {
-    title: 'Wiosna!',
-    pic: pic6,
-    path: 'wiosna',
-    textShort: 'Nunc mattis gravida quam, a tristique nibh sodales sit amet. Praesent eu imperdiet elit. Praesent non rutrum nulla, quis hendrerit lectus. Proin laoreet nibh ut pulvinar tempor. Aliquam augue dui, pretium et nunc eu, fringilla accumsan ligula. ',
-    textLong:
-    <>
-      <p>
-    Phasellus sodales nibh sed est semper, a tristique diam sodales. Sed interdum massa nec odio convallis venenatis. Ut ornare id lacus a venenatis. Etiam quam turpis, luctus ac volutpat non, rutrum varius sem. Nunc blandit dolor libero, ac varius felis finibus ac. Nam ut tortor eu dui mattis condimentum. Donec a est at nisl porttitor molestie. Sed bibendum iaculis tellus. Vivamus eu rutrum dui, et fringilla lacus. Sed imperdiet orci vitae ullamcorper volutpat. Donec viverra nulla quis ante fermentum, a viverra massa semper.</p>
-      <p>
-    Morbi ultricies auctor dui ac mattis. Nunc purus nibh, vehicula vitae ex pulvinar, pharetra pellentesque ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id ante non dui lobortis laoreet vel ut dolor. Mauris ipsum mauris, auctor at finibus in, suscipit a dolor. Vivamus pellentesque augue hendrerit, interdum augue quis, tempor ipsum. Cras bibendum est ut ligula molestie, id pellentesque metus mollis. Ut sodales efficitur lorem, eget dictum erat cursus eget. Sed vitae risus elementum, dignissim nisl vel, sagittis nulla. Duis eget ullamcorper felis.</p>
-      <p>
-    Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus quam dui, mollis ut ipsum ac, rhoncus porttitor velit. Donec sodales elit vitae tempor elementum. Nullam ut nulla eget ipsum lacinia egestas ac vel magna. Curabitur euismod magna fringilla augue vulputate, a commodo diam interdum. Sed tincidunt hendrerit arcu semper pulvinar. Nulla sit amet porttitor eros. In dignissim arcu sed lorem mattis molestie. Pellentesque pellentesque velit ut vehicula iaculis. In vitae felis eu leo rutrum euismod ornare vel erat. Sed et neque ac est consectetur varius dapibus quis sem. Etiam faucibus neque nec neque varius, in fermentum mi elementum. Fusce in augue vitae magna malesuada imperdiet. Curabitur vitae lobortis sapien. Vivamus est odio, posuere fringilla ullamcorper quis, vulputate vulputate orci.</p>
-      <img src={pic6} alt="pic" width="50%" className="my-4" />
-    </>,
-    date: '11/01/2020',
-    tag: '#wiosnaprzyszła'
-  },
-  {
-    title: 'Cztery i pół marchewki',
-    pic: pic5,
-    path: 'cztery-i-pol-marchewki',
-    textShort: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. ',
-    textLong:
-    <>
-      <p>
-    Phasellus sodales nibh sed est semper, a tristique diam sodales. Sed interdum massa nec odio convallis venenatis. Ut ornare id lacus a venenatis. Etiam quam turpis, luctus ac volutpat non, rutrum varius sem. Nunc blandit dolor libero, ac varius felis finibus ac. Nam ut tortor eu dui mattis condimentum. Donec a est at nisl porttitor molestie. Sed bibendum iaculis tellus. Vivamus eu rutrum dui, et fringilla lacus. Sed imperdiet orci vitae ullamcorper volutpat. Donec viverra nulla quis ante fermentum, a viverra massa semper.</p>
-      <p>
-    Morbi ultricies auctor dui ac mattis. Nunc purus nibh, vehicula vitae ex pulvinar, pharetra pellentesque ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id ante non dui lobortis laoreet vel ut dolor. Mauris ipsum mauris, auctor at finibus in, suscipit a dolor. Vivamus pellentesque augue hendrerit, interdum augue quis, tempor ipsum. Cras bibendum est ut ligula molestie, id pellentesque metus mollis. Ut sodales efficitur lorem, eget dictum erat cursus eget. Sed vitae risus elementum, dignissim nisl vel, sagittis nulla. Duis eget ullamcorper felis.</p>
-      <p>
-    Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus quam dui, mollis ut ipsum ac, rhoncus porttitor velit. Donec sodales elit vitae tempor elementum. Nullam ut nulla eget ipsum lacinia egestas ac vel magna. Curabitur euismod magna fringilla augue vulputate, a commodo diam interdum. Sed tincidunt hendrerit arcu semper pulvinar. Nulla sit amet porttitor eros. In dignissim arcu sed lorem mattis molestie. Pellentesque pellentesque velit ut vehicula iaculis. In vitae felis eu leo rutrum euismod ornare vel erat. Sed et neque ac est consectetur varius dapibus quis sem. Etiam faucibus neque nec neque varius, in fermentum mi elementum. Fusce in augue vitae magna malesuada imperdiet. Curabitur vitae lobortis sapien. Vivamus est odio, posuere fringilla ullamcorper quis, vulputate vulputate orci.</p>
-      <img src={pic5} alt="pic" width="50%" className="my-3" />
-    </>,
-    date: '10/01/2020',
-    tag: '#marchewdajemoc'
-  },
-  {
-    title: 'Słów kilka o motylkach',
-    pic: pic4,
-    path: 'slow-kilka-o-motylkach',
-    textShort: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
-    textLong:
-    <>
-      <p>
-    Phasellus sodales nibh sed est semper, a tristique diam sodales. Sed interdum massa nec odio convallis venenatis. Ut ornare id lacus a venenatis. Etiam quam turpis, luctus ac volutpat non, rutrum varius sem. Nunc blandit dolor libero, ac varius felis finibus ac. Nam ut tortor eu dui mattis condimentum. Donec a est at nisl porttitor molestie. Sed bibendum iaculis tellus. Vivamus eu rutrum dui, et fringilla lacus. Sed imperdiet orci vitae ullamcorper volutpat. Donec viverra nulla quis ante fermentum, a viverra massa semper.</p>
-      <p>
-    Morbi ultricies auctor dui ac mattis. Nunc purus nibh, vehicula vitae ex pulvinar, pharetra pellentesque ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id ante non dui lobortis laoreet vel ut dolor. Mauris ipsum mauris, auctor at finibus in, suscipit a dolor. Vivamus pellentesque augue hendrerit, interdum augue quis, tempor ipsum. Cras bibendum est ut ligula molestie, id pellentesque metus mollis. Ut sodales efficitur lorem, eget dictum erat cursus eget. Sed vitae risus elementum, dignissim nisl vel, sagittis nulla. Duis eget ullamcorper felis.</p>
-      <p>
-    Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus quam dui, mollis ut ipsum ac, rhoncus porttitor velit. Donec sodales elit vitae tempor elementum. Nullam ut nulla eget ipsum lacinia egestas ac vel magna. Curabitur euismod magna fringilla augue vulputate, a commodo diam interdum. Sed tincidunt hendrerit arcu semper pulvinar. Nulla sit amet porttitor eros. In dignissim arcu sed lorem mattis molestie. Pellentesque pellentesque velit ut vehicula iaculis. In vitae felis eu leo rutrum euismod ornare vel erat. Sed et neque ac est consectetur varius dapibus quis sem. Etiam faucibus neque nec neque varius, in fermentum mi elementum. Fusce in augue vitae magna malesuada imperdiet. Curabitur vitae lobortis sapien. Vivamus est odio, posuere fringilla ullamcorper quis, vulputate vulputate orci.</p>
-      <img src={pic4} alt="pic" width="50%" className="my-3" />
-      <p>
-    Nulla facilisi. Duis tempor, tortor ac tristique dictum, risus purus lobortis justo, ac laoreet elit est scelerisque est. In hac habitasse platea dictumst. Duis pulvinar, odio vel efficitur finibus, mi elit finibus risus, vitae posuere tellus urna nec neque. Ut tempor, risus quis placerat vehicula, dolor ante pulvinar dolor, non varius mauris quam ut arcu. Morbi iaculis, nunc fringilla sollicitudin pulvinar, arcu erat aliquam ipsum, ut elementum justo lorem et ante. Sed semper, lorem non malesuada congue, neque est condimentum sapien, a tincidunt justo risus non ipsum. Integer nec dui auctor, porta enim et, pharetra est.
-      </p>
-    </>,
-    date: '09/01/2020',
-    tag: '#motyl'
-  },
-  {
-    title: 'Post próbny trzeci',
-    pic: require('../components/PostPreview/pic3.jpg'),
-    path: 'post-probny-trzeci',
-    textShort: 'Nunc mattis gravida quam, a tristique nibh sodales sit amet. Praesent eu imperdiet elit. Praesent non rutrum nulla, quis hendrerit lectus. Proin laoreet nibh ut pulvinar tempor. Aliquam augue dui, pretium et nunc eu, fringilla accumsan ligula. ',
-    textLong:
-    <>
-      <p>
-    Phasellus sodales nibh sed est semper, a tristique diam sodales. Sed interdum massa nec odio convallis venenatis. Ut ornare id lacus a venenatis. Etiam quam turpis, luctus ac volutpat non, rutrum varius sem. Nunc blandit dolor libero, ac varius felis finibus ac. Nam ut tortor eu dui mattis condimentum. Donec a est at nisl porttitor molestie. Sed bibendum iaculis tellus. Vivamus eu rutrum dui, et fringilla lacus. Sed imperdiet orci vitae ullamcorper volutpat. Donec viverra nulla quis ante fermentum, a viverra massa semper.</p>
-      <p>
-    Morbi ultricies auctor dui ac mattis. Nunc purus nibh, vehicula vitae ex pulvinar, pharetra pellentesque ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id ante non dui lobortis laoreet vel ut dolor. Mauris ipsum mauris, auctor at finibus in, suscipit a dolor. Vivamus pellentesque augue hendrerit, interdum augue quis, tempor ipsum. Cras bibendum est ut ligula molestie, id pellentesque metus mollis. Ut sodales efficitur lorem, eget dictum erat cursus eget. Sed vitae risus elementum, dignissim nisl vel, sagittis nulla. Duis eget ullamcorper felis.</p>
-      <p>
-    Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus quam dui, mollis ut ipsum ac, rhoncus porttitor velit. Donec sodales elit vitae tempor elementum. Nullam ut nulla eget ipsum lacinia egestas ac vel magna. Curabitur euismod magna fringilla augue vulputate, a commodo diam interdum. Sed tincidunt hendrerit arcu semper pulvinar. Nulla sit amet porttitor eros. In dignissim arcu sed lorem mattis molestie. Pellentesque pellentesque velit ut vehicula iaculis. In vitae felis eu leo rutrum euismod ornare vel erat. Sed et neque ac est consectetur varius dapibus quis sem. Etiam faucibus neque nec neque varius, in fermentum mi elementum. Fusce in augue vitae magna malesuada imperdiet. Curabitur vitae lobortis sapien. Vivamus est odio, posuere fringilla ullamcorper quis, vulputate vulputate orci.</p>
-      <img src={pic2} alt="pic2" width="50%" className="my-4" />
-    </>,
-    date: '11/01/2020',
-    tag: '#niewiemocochodzi'
-  },
-  {
-    title: 'Post drugi, nie ostatni',
-    pic: require('../components/PostPreview/pic2.jpg'),
-    path: 'post-drugi-nie-ostatni',
-    textShort: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. ',
-    textLong:
-    <>
-      <p>
-    Phasellus sodales nibh sed est semper, a tristique diam sodales. Sed interdum massa nec odio convallis venenatis. Ut ornare id lacus a venenatis. Etiam quam turpis, luctus ac volutpat non, rutrum varius sem. Nunc blandit dolor libero, ac varius felis finibus ac. Nam ut tortor eu dui mattis condimentum. Donec a est at nisl porttitor molestie. Sed bibendum iaculis tellus. Vivamus eu rutrum dui, et fringilla lacus. Sed imperdiet orci vitae ullamcorper volutpat. Donec viverra nulla quis ante fermentum, a viverra massa semper.</p>
-      <p>
-    Morbi ultricies auctor dui ac mattis. Nunc purus nibh, vehicula vitae ex pulvinar, pharetra pellentesque ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id ante non dui lobortis laoreet vel ut dolor. Mauris ipsum mauris, auctor at finibus in, suscipit a dolor. Vivamus pellentesque augue hendrerit, interdum augue quis, tempor ipsum. Cras bibendum est ut ligula molestie, id pellentesque metus mollis. Ut sodales efficitur lorem, eget dictum erat cursus eget. Sed vitae risus elementum, dignissim nisl vel, sagittis nulla. Duis eget ullamcorper felis.</p>
-      <p>
-    Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus quam dui, mollis ut ipsum ac, rhoncus porttitor velit. Donec sodales elit vitae tempor elementum. Nullam ut nulla eget ipsum lacinia egestas ac vel magna. Curabitur euismod magna fringilla augue vulputate, a commodo diam interdum. Sed tincidunt hendrerit arcu semper pulvinar. Nulla sit amet porttitor eros. In dignissim arcu sed lorem mattis molestie. Pellentesque pellentesque velit ut vehicula iaculis. In vitae felis eu leo rutrum euismod ornare vel erat. Sed et neque ac est consectetur varius dapibus quis sem. Etiam faucibus neque nec neque varius, in fermentum mi elementum. Fusce in augue vitae magna malesuada imperdiet. Curabitur vitae lobortis sapien. Vivamus est odio, posuere fringilla ullamcorper quis, vulputate vulputate orci.</p>
-      <img src={pic3} alt="pic" width="50%" className="my-3" />
-    </>,
-    date: '10/01/2020',
-    tag: '#drugipost'
-  },
-  {
-    title: 'Na początku był chaos',
-    pic: require('../components/PostPreview/pic1.jpg'),
-    path: 'na-poczatku-byl-chaos',
-    textShort: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
-    textLong:
-    <>
-      <p>
-    Phasellus sodales nibh sed est semper, a tristique diam sodales. Sed interdum massa nec odio convallis venenatis. Ut ornare id lacus a venenatis. Etiam quam turpis, luctus ac volutpat non, rutrum varius sem. Nunc blandit dolor libero, ac varius felis finibus ac. Nam ut tortor eu dui mattis condimentum. Donec a est at nisl porttitor molestie. Sed bibendum iaculis tellus. Vivamus eu rutrum dui, et fringilla lacus. Sed imperdiet orci vitae ullamcorper volutpat. Donec viverra nulla quis ante fermentum, a viverra massa semper.</p>
-      <p>
-    Morbi ultricies auctor dui ac mattis. Nunc purus nibh, vehicula vitae ex pulvinar, pharetra pellentesque ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id ante non dui lobortis laoreet vel ut dolor. Mauris ipsum mauris, auctor at finibus in, suscipit a dolor. Vivamus pellentesque augue hendrerit, interdum augue quis, tempor ipsum. Cras bibendum est ut ligula molestie, id pellentesque metus mollis. Ut sodales efficitur lorem, eget dictum erat cursus eget. Sed vitae risus elementum, dignissim nisl vel, sagittis nulla. Duis eget ullamcorper felis.</p>
-      <p>
-    Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus quam dui, mollis ut ipsum ac, rhoncus porttitor velit. Donec sodales elit vitae tempor elementum. Nullam ut nulla eget ipsum lacinia egestas ac vel magna. Curabitur euismod magna fringilla augue vulputate, a commodo diam interdum. Sed tincidunt hendrerit arcu semper pulvinar. Nulla sit amet porttitor eros. In dignissim arcu sed lorem mattis molestie. Pellentesque pellentesque velit ut vehicula iaculis. In vitae felis eu leo rutrum euismod ornare vel erat. Sed et neque ac est consectetur varius dapibus quis sem. Etiam faucibus neque nec neque varius, in fermentum mi elementum. Fusce in augue vitae magna malesuada imperdiet. Curabitur vitae lobortis sapien. Vivamus est odio, posuere fringilla ullamcorper quis, vulputate vulputate orci.</p>
-      <img src={pic5} alt="pic" width="50%" className="my-3" />
-      <p>
-    Nulla facilisi. Duis tempor, tortor ac tristique dictum, risus purus lobortis justo, ac laoreet elit est scelerisque est. In hac habitasse platea dictumst. Duis pulvinar, odio vel efficitur finibus, mi elit finibus risus, vitae posuere tellus urna nec neque. Ut tempor, risus quis placerat vehicula, dolor ante pulvinar dolor, non varius mauris quam ut arcu. Morbi iaculis, nunc fringilla sollicitudin pulvinar, arcu erat aliquam ipsum, ut elementum justo lorem et ante. Sed semper, lorem non malesuada congue, neque est condimentum sapien, a tincidunt justo risus non ipsum. Integer nec dui auctor, porta enim et, pharetra est.
-      </p>
-    </>,
-    date: '09/01/2020',
-    tag: '#ekologia'
+    date: '27/02/2020',
+    tag: '#retencja'
   }
 ]
 

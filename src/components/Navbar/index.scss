@@ -1,17 +1,27 @@
 .Navbar {
   nav {
-    margin: .5rem 0;
+    margin: .2rem 0;
+    font-size: 90%;
   }
   .nav-item {
     color: #525252;
     border-bottom: 1px solid transparent;
+    margin-left: 5px;
     
     &.active {
-      color: black;;
+      color: black;
+      border-bottom: 1px solid;
     }
     &:hover {
       color: #FF7C26;
       border-bottom: 1px solid;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) {
+    nav {
+      margin: .5rem 0;
+      font-size: 100%;
     }
   }
 }
