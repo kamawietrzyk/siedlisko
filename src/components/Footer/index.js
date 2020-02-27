@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import logoSmall from './logoSmall.svg'
 import './index.scss'
@@ -33,6 +33,7 @@ const Footer = () => (
         <a href="https://www.facebook.com/tomtomlittlewind" target="_blank" rel="noopener noreferrer" className="Footer__icon text-muted"><FontAwesomeIcon icon={faFacebookF} /></a>
         <a href="https://www.instagram.com/_kamykowe_/" target="_blank" rel="noopener noreferrer" className="Footer__icon text-muted"><FontAwesomeIcon icon={faInstagram} /></a>
         <a href={URLS.CONTACT} className="Footer__icon text-muted"><FontAwesomeIcon icon={faEnvelope} /></a>
+        <a href="https://github.com/kamawietrzyk/" target="blank" rel="noopener noreferrer" className="Footer__icon text-muted"><FontAwesomeIcon icon={faGithub} /></a>
       </div>
     </div>
     <div className="text-center pt-2 pb-1 text-muted">
