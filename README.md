@@ -8,10 +8,10 @@ Wraz z mężem mocno interesujemy się tematem, o którym jest strona. Dlatego c
 
 ### Proces
 
-Prace nad stroną rozpoczęłam od wybrania projektu graficznego, która spodobała mi się wizualnie i którą starałam się odtworzyć możliwie jak najdokładniej (chociaż elementy, które nie przypadły mi do gustu zmieniłam wedle własnego uznania). 
-Szablon dostępny do wglądu m.in. [tutaj](http://paullaros.nl/ada1.2/bootstrap3/home-full-width.html) i [tutaj](http://paullaros.nl/ada1.2/bootstrap3/post-image.html).
+Prace nad stroną rozpoczęłam od wybrania projektu graficznego, który spodobał mi się wizualnie i który starałam się odtworzyć od podstaw możliwie jak najdokładniej przy użyciu CSS'a (chociaż elementy, które nie przypadły mi do gustu zmieniłam wedle własnego uznania). 
+Szablon, z którego korzystałam dostępny do wglądu m.in. [tutaj](http://paullaros.nl/ada1.2/bootstrap3/home-full-width.html) i [tutaj](http://paullaros.nl/ada1.2/bootstrap3/post-image.html).
 Przy tworzeniu RWD kierowałam się zasadą mobile first.
-Ustawiony jest automatyczny deployment z brancha `master` na AWS S3 przy użyciu serwisu Circle CI.
+W projekcie ustawiony jest automatyczny deployment z brancha `master` na AWS S3 przy użyciu serwisu Circle CI.
 
 ### Stack technologiczny
 
