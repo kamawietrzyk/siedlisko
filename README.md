@@ -4,9 +4,9 @@ Strona **Siedlisko Góra Wiatrów** powstała przy użyciu [Create React App](ht
 
 ### Dlaczego taka strona?
 
-Wraz z mężem mocno interesujemy się tematem, o którym jest strona. Dlatego chciałam stworzyć projekt, który będzie pokazywał zarówno moje juniorskie umiejętności front-endowe, jak i w przyjemny dla oka sposób będzie rozpowszechniał wiedzę z zakresu projektowania permakulturowego i pozwoli nam podzielić się procesem tworzenia własnego siedliska.
+Wraz z mężem mocno interesujemy się tematem, o którym jest strona. Dlatego chciałam stworzyć projekt, który będzie pokazywał zarówno moje juniorskie umiejętności front-endowe, jak i w przyjemny dla oka sposób będzie rozpowszechniał wiedzę z zakresu projektowania permakulturowego i pozwoli nam podzielić się historią tworzenia własnego siedliska.
 
-### Proces
+### 
 
 Prace nad stroną rozpoczęłam od wybrania projektu graficznego, który spodobał mi się wizualnie i który starałam się odtworzyć od podstaw możliwie jak najdokładniej przy użyciu CSS'a (chociaż elementy, które nie przypadły mi do gustu zmieniłam wedle własnego uznania). 
 Szablon, z którego korzystałam dostępny do wglądu m.in. [tutaj](http://paullaros.nl/ada1.2/bootstrap3/home-full-width.html) i [tutaj](http://paullaros.nl/ada1.2/bootstrap3/post-image.html).
