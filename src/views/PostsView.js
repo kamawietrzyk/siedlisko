@@ -7,11 +7,12 @@ import logo from '../components/Header/logo.svg'
 import URLS from '../config/urls'
 import SeoContent from '../components/SeoContent'
 
+const APP_URL = process.env.REACT_APP_BASE_URL
 const seo = {
   title: 'Wszystkie wpisy',
   description:
     'Tutaj znadziesz wszystkie nasze dotychczasowe wpisy, ale ostrzegamy - wchodzisz tu na własną odpowiedzialność!',
-  url: URLS.POSTS,
+  url: `${APP_URL}${URLS.POSTS}/`,
   image: logo
 }
 

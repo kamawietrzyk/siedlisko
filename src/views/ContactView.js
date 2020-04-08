@@ -5,11 +5,12 @@ import contact from '../components/Contact/kontakt.jpg'
 import URLS from '../config/urls'
 import SeoContent from '../components/SeoContent'
 
+const APP_URL = process.env.REACT_APP_BASE_URL
 const seo = {
   title: 'Kontakt',
   description:
     'Odezwij się do nas!',
-  url: URLS.CONTACT,
+  url: `${APP_URL}${URLS.CONTACT}/`,
   image: contact
 }
 

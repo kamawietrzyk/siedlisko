@@ -6,11 +6,12 @@ import SeoContent from '../components/SeoContent'
 import URLS from '../config/urls'
 import logo from '../../src/components/Header/logo.svg'
 
+const APP_URL = process.env.REACT_APP_BASE_URL
 const seo = {
   title: 'Siedlisko Góra Wiatrów - permakultura | natura | ekologia',
   description:
     'Blog o permakulturze w życiu i w użyciu. Swobodna pisanina o naturze i ekologii, wynużenia o nas i luźne przemyślenia na tematy różne.',
-  url: URLS.HOME,
+  url: `${APP_URL}${URLS.HOME}/`,
   image: logo
 }
 

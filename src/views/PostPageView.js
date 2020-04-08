@@ -10,10 +10,11 @@ const PostPageView = () => {
   const selectedPost = posts.find(post => post.path === url)
   const relatedPost = posts.slice(0, 3)
 
+  const APP_URL = process.env.REACT_APP_BASE_URL
   const seo = {
     title: selectedPost.title,
     description: selectedPost.textShort,
-    url: selectedPost.path,
+    url: `${APP_URL}${selectedPost.path}/`,
     image: selectedPost.pic
   }
 
