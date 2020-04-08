@@ -1,8 +1,31 @@
 import React from 'react'
-import wpis1 from './pics/wpis1.jpg'
 import wpis0 from './pics/wpis0.jpg'
+import wpis1 from './pics/wpis1.jpg'
+import wpis2 from './pics/wpis2.jpg'
+import wpis2text from './pics/wpis2text.JPG'
 
 const posts = [
+  {
+    title: 'Namiot na jarzyny',
+    pic: wpis2,
+    path: 'namiot-na-jarzyny',
+    textShort: 'Kwiecień zaczął się w tym roku tak niespodziewanie, że prawie go nie zauważyliśmy. Był marzec - cyk! - jest kwiecień. To zapewne przez pandemię - od 4 tygodni wszyscy w domu z dni tygodnia rozróżniają tylko sobotę. Wtedy to... ',
+    textLong:
+    <>
+      <p>Kwiecień zaczął się w tym roku tak niespodziewanie, że prawie go nie zauważyliśmy. Był marzec - cyk! - jest kwiecień. To zapewne przez pandemię - od 4 tygodni wszyscy w domu z dni tygodnia rozróżniają tylko sobotę. Wtedy to wydobywam z futerału skrzypce w celu przeprowadzenia lekcji online i przy pierwszych dźwiękach instrumentu zazwyczaj w którymś zakątku domu pada hasło: „O! To dziś już sobota?!”. Jak kiedyś mnie najdzie znienacka ochota na ćwiczenie w środku tygodnia to chyba nie ogarniemy tego chaosu… ;)</p>
+      <p>Ale wracając do kwietnia - zakaz wychodzenia z domu + mieszkanie na wsi to o dziwo całkiem dobre połączenie. Nie od dziś wiadomo, że jak się człowiek nudzi to zaczyna myśleć i działać bardziej kreatywnie. Pandemia znacznie przyspieszyła front naszych robót ogrodniczych – większość dnia spędzalibyśmy przecież w pracy, więc na pewno nie udałoby się nam zrobić tyle, ile zrobiliśmy teraz.￼￼ </p>
+      <p>To teraz po kolei.</p>
+      <p>Fakt, że do sklepu budowlanego nie można obecnie jechać na każde pierdnięcie, zmusił nas do analitycznych przemyśleń o tym, jak w 100% wykorzystać surowce obecne w terenie. W naszym lesie zalegało parę wywrotów, z których Tomek zbudował szkielet pod foliak w stylu domku Hobbitów, tzn. krzywy i brzydki jak jasny pieron, ale na tyle solidny, że raczej nie odfrunie przy pierwszym lepszym wietrze. W środku znajdą się podwyższone grządki, które zbudujemy prawdopodobnie jeszcze w tym tygodniu (no, przynajmniej jedną). Będą one ustawione na bazie z butwiejących gałęzi i liści (tak jak w wałach Hugelkultur) a z góry wypełnione ziemią, kurzym obornikiem i wyściółkowane słomą. Próchniejące drewno lepiej trzyma wilgoć, dlatego nasze rośliny będą bezpieczne podczas okresów suszy. Poza tym, teren wokół hobbitówki wyprofilowany jest tak, że woda opadowa będzie spływać pod spód i przesączać się wprost do rozkładających się gałęzi.</p>
+      <img src={wpis2text} alt="hobbitówka" width="70%" style={{ margin: '2rem' }}/>
+      <p>Obok foliaka zgodnie z nachyleniem terenu, kierunkiem słońca i linią opadową powstały wały. Trzy wały pod Trzy Siostry - czyli trio idealne, na które składają się stabilna kukurydza, pnąca się po jej nóżce fasola i rozłożysta, wijąca się po ziemi dynia lub cukinia. Mamy w zbiorach pięć gatunków roślin dyniowatych, które wraz z kukurydzą i różnymi fasolowatymi￼ ￼planujemy tam posadzić na testy. W sumie wszystko co w tym roku robimy jest „na testy”.￼</p>
+      <p> Kolejną rzeczą „na testy” są wieże ziemniaczane, czyli ziemniaki sadzone wertykalnie w kominach skonstruowanych z siatki o dużych oczkach, które wyłożone są ziemią i słomą (siatki - nie oczka). Takich wież zrobiliśmy dziś trzy (jutro ciąg dalszy) – w każdej inne proporcje ziemi/słomy/ziemniaków. Zobaczymy, które sprawdzą się najlepiej (o ile w ogóle wypalą) i te będziemy kontynuować w przyszłym roku.￼￼￼ </p>
+      <p>Ze spraw mniej spektakularnych, niemniej równie ważnych (o ile nie ważniejszych..!) - od prawie miesiąca w rozsadnikach rosną sobie cichutko w ilościach hurtowych przeróżne odmiany pomidorów (m.in. Negro Azteca, Velvet Red Cherry, Violet Jasper), papryk (m.in. Ramiro, Habanero, Piri-Piri i ostra węgierska, której odmiany niestety nie znamy, ale jest „hot in-hot out”), sałat i innych liściastych oraz ziół (po wrąbki - do wyboru, do koloru).</p>
+      <p>Jak to wszystko już skończymy, wybudujemy i posadzimy według planu to pozostanie nam tylko zaklinać deszcz dzikimi pląsami (w których akurat na szczęście Tymek jest mistrzem - i sprawdzaliśmy, do Zenona M. nawet mu nóżka nie drgnie ;) ). I liczyć po cichu na to, że ten nasz „namiot na jarzyny” (jak powiedział dziś mój Dziadek) prędko buchnie zielonością.</p>
+      <p>Czego i Wam życzymy! K.</p>
+    </>,
+    date: '08/04/2020',
+    tag: '#hobbitówka'
+  },
   {
     title: 'A bez retencji... nie ma retencji!',
     pic: wpis1,
