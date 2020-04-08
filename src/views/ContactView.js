@@ -10,7 +10,7 @@ const seo = {
   title: 'Kontakt',
   description:
     'Odezwij się do nas!',
-  url: `${APP_URL}${URLS.CONTACT}/`,
+  url: `${APP_URL}${URLS.CONTACT}`,
   image: contact
 }
 

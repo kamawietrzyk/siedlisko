@@ -10,7 +10,7 @@ const seo = {
   title: 'Permakultura - co to takiego?',
   description:
     '"Permakultura to interdyscyplinarna nauka i szkoła projektowania trwałych, zrównoważonych ekosystemów" - to najbardziej zwięzła definicja, jaką poznaliśmy.',
-  url: `${APP_URL}${URLS.PERMACULTURE}/`,
+  url: `${APP_URL}${URLS.PERMACULTURE}`,
   image: perma
 }
 

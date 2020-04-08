@@ -10,7 +10,7 @@ const seo = {
   title: 'O nas',
   description:
     'Nazywamy się Kama i Tomek Wietrzyk. Jesteśmy dobrymi przyjaciółmi od stu lat, zakochaną parą od trzynastu, a od ostatnich sześciu - szczęśliwym małżeństwem.',
-  url: `${APP_URL}${URLS.ABOUT_US}/`,
+  url: `${APP_URL}${URLS.ABOUT_US}`,
   image: us
 }
 

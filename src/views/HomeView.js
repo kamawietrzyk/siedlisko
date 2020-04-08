@@ -11,7 +11,7 @@ const seo = {
   title: 'Siedlisko Góra Wiatrów - permakultura | natura | ekologia',
   description:
     'Blog o permakulturze w życiu i w użyciu. Swobodna pisanina o naturze i ekologii, wynużenia o nas i luźne przemyślenia na tematy różne.',
-  url: `${APP_URL}${URLS.HOME}/`,
+  url: `${APP_URL}${URLS.HOME}`,
   image: logo
 }
 

@@ -14,7 +14,7 @@ const PostPageView = () => {
   const seo = {
     title: selectedPost.title,
     description: selectedPost.textShort,
-    url: `${APP_URL}${selectedPost.path}/`,
+    url: `${APP_URL}${selectedPost.path}`,
     image: selectedPost.pic
   }
 

@@ -12,7 +12,7 @@ const seo = {
   title: 'Wszystkie wpisy',
   description:
     'Tutaj znadziesz wszystkie nasze dotychczasowe wpisy, ale ostrzegamy - wchodzisz tu na własną odpowiedzialność!',
-  url: `${APP_URL}${URLS.POSTS}/`,
+  url: `${APP_URL}${URLS.POSTS}`,
   image: logo
 }
 
