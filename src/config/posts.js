@@ -30,7 +30,7 @@ const posts = [
     title: 'A bez retencji... nie ma retencji!',
     pic: wpis1,
     path: 'a-bez-retencji-nie-ma-retencji',
-    textShort: 'Na każdym zebraniu jest tak, że ktoś musi zacząć. No to pyk. Gdy dostajesz na własność taki kawał ziemi zastanawiasz się, jak to wszystko logicznie ugryźć - zadanie niełatwe, biorąc pod uwagę fakt, że - po pierwsze - na początku... ',
+    textShort: 'Na każdym zebraniu jest tak, że ktoś musi zacząć. Gdy dostajesz na własność taki kawał ziemi zastanawiasz się, jak to wszystko logicznie ugryźć - zadanie niełatwe, biorąc pod uwagę fakt, że - po pierwsze - na początku... ',
     textLong:
     <>
       <p>Na każdym zebraniu jest tak, że ktoś musi zacząć.</p>
