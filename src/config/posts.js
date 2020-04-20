@@ -1,10 +1,47 @@
 import React from 'react'
+import PopupImage from '../components/PopupImage'
 import wpis0 from './pics/wpis0.jpg'
 import wpis1 from './pics/wpis1.jpg'
 import wpis2 from './pics/wpis2.jpg'
-import wpis2text from './pics/wpis2text.JPG'
+import wpis2text1 from './pics/wpis2text1.JPG'
+import wpis2text2 from './pics/wpis2text2.JPG'
+import wpis3 from './pics/wpis3.jpg'
+import wpis3text1 from './pics/wpis3text1.JPG'
 
 const posts = [
+  {
+    title: 'A co to właściwie jest ta gildia..?',
+    pic: wpis3,
+    path: 'a-co-to-wlasciwie-jest-ta-gildia',
+    textShort: ' "Ludzie to... nie wiedzą, jakie siły drzemią w naturze." Pamiętacie to? Niby reklama napoju, a ile zawiera głębokiej mądrości życiowej... Prawda jest taka, że siły w naturze drzemią ogromne -  szczególnie, gdy się wie, jak je połączyć. ',
+    textLong:
+    <>
+      <p>&quot;Ludzie to... nie wiedzą, jakie siły drzemią w naturze.&quot; Pamiętacie to? Niby reklama napoju, a ile zawiera głębokiej mądrości życiowej... Prawda jest taka, że siły w naturze drzemią ogromne -  szczególnie, gdy się wie, jak je połączyć.</p>
+      <p>W naturze istnieje mnóstwo korzystnych powiązań - rośliny, korzystając ze swojej roślinnej intuicji, wybierają sobie towarzystwo innych roślin tak, żeby dla wszystkich zainteresowanych to sąsiedztwo było jak najbardziej opłacalne. Łączą się na zasadzie kontrastów, np. rośliny z płytkim systemem korzeniowym + rośliny szukające wody głęboko w glebie; na zasadzie korzyści, np. gdzie jedna roślina odstrasza szkodniki żerujące na sąsiadującym gatunku, i tak dalej, i tak dalej... W permakulturze ta wiedza o roślinnych współzależnościach jest chętnie wykorzystywana przy projektowaniu samowystarczalnych, wieloletnich ekosystemów, takich jak leśne ogrody czy gildie drzew owocowych. O tych drugich będzie dziś kilka słów.</p>
+      <p>Za wyznaczanie naszej pierwszej gildii (gildia czereśni Lapins, którą posadziliśmy wiosną zeszłego roku) zabraliśmy się dziarsko kilka dni temu. Jak już wymyśliliśmy, że chcemy ją na kształt plastra miodu to samo robienie poszło szybko - sznurek, miarka, promień 2m od drzewa, 12,5m obwód (tylko wiecie - taki prawdziwy obwód, nie ten według TVP... ), wyznaczenie po okręgu 6 punktów w równych odległościach i voilà - zarys pierwszej gildii był. Niby nic wielkiego, ale dumni byliśmy z siebie ogromnie. Chwaląc się rodzinie fotorelacją z postępów prac zostaliśmy dość brutalnie sprowadzeni na ziemię, gdy okazało się, że wiedza o naszych dziwnych tworach nie jest (niestety) szczególnie powszechna, bo zamiast oczekiwanego &quot;Ach, och, cóż to za przepiękna gildia mym oczom się jawi!&quot;, otrzymaliśmy w odpowiedzi właściwie jedno powtarzające się pytanie - &quot;A co to właściwie jest ta gildia..?&quot;</p>
+      <PopupImage src={wpis3text1} alt="gildia1" />
+      <p>Natchnęło nas więc, żeby co nieco o niej opowiedzieć.</p>
+      <p>Słowo gildia (z niem. &quot;Gilde&quot; = &quot;związek&quot;) jednym kojarzy się wyłącznie z RPG, gdzie gildie to klany graczy; drugim (tym, co w szkole uważali na lekcjach historii - czyli nie Kama) na myśl przychodzą gildie cechów, czyli średniowieczne stowarzyszenia lub zebrania rzemieślników; a jeszcze innym gildia z niczym się nie kojarzy - to pewnie wina kolarzy (suchar codzienny by Tomasz zawsze na propsie!).</p>
+      <p>Dla nas (i pewnie dla innych permaludków też) gildia to przepiękny, wielopoziomowy twór, budowany na wzór lasu (jeśli chodzi o dobór wysokości poszczególnych roślin). Jego członkowie wspierają siebie wzajemnie na liczne sposoby, a w skład klasycznej gildii wchodzą:
+        <ul>
+          <li>drzewo, które jest centralnym punktem całej gildii i wokół którego buduje się resztę ekosystemu,</li>
+          <li>średniej wielkości krzewy, tworzące niższą warstwę,</li>
+          <li>rośliny wabiące zapylacze i pożyteczne owady,</li>
+          <li>rośliny poskramiające szkodniki,</li>
+          <li>rośliny pobudzające żyzność gleby,</li>
+          <li>rośliny wiążące azot,</li>
+          <li>rośliny okrywowe.</li>
+        </ul>
+        Wynikiem takiej kombinacji jest zdrowsze drzewo (zazwyczaj owocowe, chociaż buduje się też gildie innych drzew, np. orzecha włoskiego czy dębu) i bioróżnorodne siedlisko. Ponadto takie &quot;biologiczne wsparcie&quot; zastępuje interwencję człowieka, przesuwając ciężar pracy ogrodnika na szerokie plecy Matki Natury.
+      </p>
+      <p>Brzmi skomplikowanie? Tylko pozornie - dla lepszego zobrazowania sprawy posłużymy się cytatem - Toby Hemenway w &quot;Ogrodzie Gai&quot; porównuje gildię do sprawnie działającego samochodu: &quot;Tak jak samochód potrzebuje części odpowiedzialnych za konkretne role - kierowanie, przyśpieszanie, hamowanie - połączonych w odpowiednie podzespoły, tak samo każda gildia posiada elementy pełniące zadania - kontrolę chorób, produkcję nawozu, zapylanie etc. - potrzebne, by gildia była zdrowa i łatwa w utrzymaniu&quot;. Jednak im dalej w las tym robi się ciekawiej. Nie jest tak, że jedna roślina pełni w gildii wyłącznie jedną rolę. Np. koniczyna i lucerna wiążą azot, ale również przyciągają pszczoły; babka lancetowata i krwawnik akumulują składniki odżywcze i są też lecznicze. Jednak niekwestionowanym zwycięzcą w tym konkursie jest żywokost, który daje ściółkę, jest leczniczy, przyciąga owady, akumuluje potas i inne minerały, można zaparzyć z niego ziołową herbatkę lub nawozić nim ogród. Tak, że ten.</p>
+      <p>Jak widzicie - gildie są spoko i dają bardzo wiele możliwości. Najlepsze jest to, że nie da się wykonać całej gildii na raz - uczy to więc człowieka cierpliwości i daje szansę wprowadzania poprawek na bieżąco, bo mimo książkowych zasad, z których należy korzystać, każde siedlisko jest inne i rządzi się swoimi własnymi prawami. Jednak jedno jest pewne - lepsze nawet 2-3 rośliny towarzyszące pod jabłonką czy gruszą, niż nudny trawnik, a zawsze to już jakiś początek. My też dopiero  zaczynamy i zaczynamy spokojnie, ale chcielibyśmy w przyszłości połączyć nasze gildie w jedną, co będzie nielada wyzwaniem. Ale o tym innym razem.</p>
+      <p>Ściskamy! K. i T. <br/><br/>
+      PS. Tutaj <a style={{ textDecoration: 'none', color: '#FF7C26' }} href="https://www.youtube.com/watch?v=qzaAESO8suY" target="_blank" rel="noopener noreferrer">rozwiązanie zagadki</a> dla niezorientowanej młodzieży ;) </p>
+    </>,
+    date: '20/04/2020',
+    tag: '#gildiajestspoko'
+  },
   {
     title: 'Namiot na jarzyny',
     pic: wpis2,
@@ -16,7 +53,8 @@ const posts = [
       <p>Ale wracając do kwietnia - zakaz wychodzenia z domu + mieszkanie na wsi to o dziwo całkiem dobre połączenie. Nie od dziś wiadomo, że jak się człowiek nudzi to zaczyna myśleć i działać bardziej kreatywnie. Pandemia znacznie przyspieszyła front naszych robót ogrodniczych – większość dnia spędzalibyśmy przecież w pracy, więc na pewno nie udałoby się nam zrobić tyle, ile zrobiliśmy teraz.￼￼ </p>
       <p>Zatem po kolei.</p>
       <p>Fakt, że do sklepu budowlanego nie można obecnie jechać na każde pierdnięcie, zmusił nas do analitycznych przemyśleń o tym, jak w 100% wykorzystać surowce obecne w terenie. W naszym lesie zalegało parę wywrotów, z których Tomek zbudował szkielet pod foliak w stylu domku Hobbitów, tzn. krzywy i brzydki jak jasny pieron, ale na tyle solidny, że raczej nie odfrunie przy pierwszym lepszym wietrze. W środku znajdą się podwyższone grządki, które zbudujemy prawdopodobnie jeszcze w tym tygodniu (no, przynajmniej jedną). Będą one ustawione na bazie z butwiejących gałęzi i liści (tak jak w wałach Hugelkultur) a z góry wypełnione ziemią, kurzym obornikiem i wyściółkowane słomą. Próchniejące drewno lepiej trzyma wilgoć, dlatego nasze rośliny będą bezpieczne podczas okresów suszy. Poza tym, teren wokół hobbitówki wyprofilowany jest tak, że woda opadowa będzie spływać pod spód i przesączać się wprost do rozkładających się gałęzi.</p>
-      <img src={wpis2text} alt="hobbitówka" width="70%" style={{ margin: '2rem' }}/>
+      <PopupImage src={wpis2text1} alt="hobbitówka" />
+      <PopupImage src={wpis2text2} alt="hobbitówka2" />
       <p>Obok foliaka zgodnie z nachyleniem terenu, kierunkiem słońca i linią opadową powstały wały. Trzy wały pod Trzy Siostry - czyli trio idealne, na które składają się stabilna kukurydza, pnąca się po jej nóżce fasola i rozłożysta, wijąca się po ziemi dynia lub cukinia. Mamy w zbiorach pięć gatunków roślin dyniowatych, które wraz z kukurydzą i różnymi fasolowatymi￼ ￼planujemy tam posadzić na testy. W sumie wszystko, co w tym roku robimy jest na testy.￼</p>
       <p> Kolejną rzeczą „na testy” są wieże ziemniaczane, czyli ziemniaki sadzone wertykalnie w kominach skonstruowanych z siatki o dużych oczkach, które wypełnione są ziemią i słomą (tzn. te kominy - nie oczka). Takich wież zrobiliśmy dziś trzy (jutro ciąg dalszy) – w każdej inne proporcje ziemi/słomy/ziemniaków. Zobaczymy, które sprawdzą się najlepiej (o ile w ogóle wypalą) i te będziemy kontynuować w przyszłym roku.￼￼￼ </p>
       <p>Ze spraw mniej spektakularnych, niemniej równie ważnych (o ile nie ważniejszych..!) - od prawie miesiąca w rozsadnikach rosną sobie cichutko w ilościach hurtowych przeróżne odmiany pomidorów (m.in. Negro Azteca, Velvet Red Cherry, Violet Jasper), papryk (m.in. Ramiro, Habanero, Piri-Piri i ostra węgierska, której odmiany niestety nie znamy, ale jest „hot in-hot out”), sałat i innych liściastych oraz ziół (po wrąbki - do wyboru, do koloru).</p>
