@@ -8,7 +8,7 @@ import SeoContent from '../components/SeoContent'
 const PostPageView = () => {
   const { url } = useParams()
   const selectedPost = posts.find(post => post.path === url)
-  const relatedPost = posts.slice(0, 3)
+  const relatedPost = posts.slice(1, 4)
 
   const APP_URL = process.env.REACT_APP_BASE_URL
   const seo = {
