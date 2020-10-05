@@ -10,6 +10,7 @@ import wpis3text1 from './pics/wpis3text1.JPG'
 import wpis4 from './pics/wpis4.jpg'
 import wpis4biegusy from './pics/wpis4biegusy.JPG'
 import wpis4pomidory from './pics/wpis4pomidory.JPG'
+import wpis4corn from './pics/wpis4corn.jpeg'
 import wpis4trzySiostry from './pics/wpis4trzySiostry.JPG'
 
 const posts = [
@@ -30,6 +31,7 @@ const posts = [
         <PopupImage src={wpis4pomidory} alt="pomidory z Siedliska" />
         <p>Trzy Siostry na wałach udały się równie pięknie - kilka odmian dyń rosło jak szalone, rozbiegając się na wszystkie strony świata. Fasolki lokalnej odmiany (tzw.krówki) pięły się ładnie po kukurydzach, aczkolwiek dzikie dynie trochę je przygłuszyły. W przyszłym roku postaramy się poprawić system, sadząc dynie do gruntu w większym rozstawie. Na nasze usprawiedliwienie możemy powiedzieć, że w momencie sadzenia dyń do ziemi trwała w najlepsze wyżej wspomniana wojenka z pomrowami, i wówczas one miały zdecydowaną przewagę liczebną, pożerając chętnie każdą napotkaną na swej drodze, bezbronną jeszcze wtedy, sadzoneczkę. Za to kukurydza z garstki nasion z wymiany wyszła cud-miód - żywot pięknej odmiany &quot;Tęczowy klejnot&quot; został przedłużony. Swoją drogą my nasionami też chętnie się wymieniamy - szczegóły kontaktowe oczywiście w zakładce <a style={{ textDecoration: 'none', color: '#FF7C26' }} href="https://siedlisko.wietrzyk.com/kontakt" target="_blank" rel="noopener noreferrer">Kontakt</a>.</p>
         <PopupImage src={wpis4trzySiostry} alt="trzy siostrzy i Tymek z Siedliska" />
+        <PopupImage src={wpis4corn} alt="kukurydza szklany klejnot z Siedliska" />
         <p>W międzyczasie do supergildii dosadziliśmy kilka jabłoni, porzeczki, agresty i kwiaty. Teraz jesienią planujemy dalsze nasadzenia - dojdą na pewno karagany syberyjskie, oliwniki oraz rokitniki - na razie po kilka sztuk na próbę, żeby sprawdzić, jak się przyjmą na tutejszych ziemiach. Robimy też porządki w gildiach, kartonujemy i zrębkujemy tereny wokół drzewek, szykując je na zimę i budując zdrową glebę. A propos zdrowej gleby - koniecznie obejrzyjcie na Netflixie film dokumentalny pt. &quot;Kiss the Ground&quot; -  nigdy już nie popatrzycie tak samo na zaorane pole.</p>
         <p>Do następnego razu! K. i T.</p>
       </>,
