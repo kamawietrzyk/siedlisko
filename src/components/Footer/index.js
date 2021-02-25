@@ -18,7 +18,7 @@ const tabs = [
 const Footer = () => (
   <>
     <div className="Footer">
-      <Link to={URLS.HOME}><img src={logoSmall} alt="footer-logo"/></Link>
+      <Link to={URLS.HOME}><img src={logoSmall} alt="footer-logo" /></Link>
       <div className="Footer__nav">
         {tabs.map(({ name, label, url }) =>
           <Link
@@ -37,7 +37,7 @@ const Footer = () => (
       </div>
     </div>
     <div className="text-center pt-2 pb-1 text-muted">
-      <small>Copyright &copy; 2020 Kama Swoboda-Wietrzyk.<br/> All rights reserved.</small>
+      <small>Copyright &copy; 2021 Kama & Tomek Wietrzyk.<br /> All rights reserved.</small>
     </div>
   </>
 )
